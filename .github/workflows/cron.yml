@@ -1,0 +1,56 @@
+name: Generate HTML
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    name: Generate HTML
+    if: "github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/checkout@v2
+        with:
+          path: pages
+          ref: pages
+          ssh-key: ${{ secrets.KEY }}
+          repository: isjerryxiao/rushed_dn42_map
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+          architecture: x64
+
+      - run: pip install -r req.txt
+
+      - env:
+          HOST: ${{ secrets.HOST }}
+          KEY: ${{ secrets.KEY }}
+        shell: bash
+        run: |
+          set -ex
+          sudo apt update -qq
+          sudo apt install -y openssh-client git
+          {
+          set -ex
+          mkdir -p ~/.ssh
+          echo "$KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          cat ~/.ssh/config || true
+          echo -e "UserKnownHostsFile /dev/null\nStrictHostKeyChecking no" > ~/.ssh/config
+          bash gen.sh 2>&1 |sed "s/${HOST%@*}/***/g; s/${HOST#*@}/***/g"
+          cp index.html pages/
+          cd pages
+          git config user.email "bot@github.com"
+          git config user.name "bot"
+          git add index.html
+          git commit -m "Generated at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          git push origin pages
+          } || { shred ~/.ssh/id_ed25519; exit 1; }
+          shred ~/.ssh/id_ed25519
