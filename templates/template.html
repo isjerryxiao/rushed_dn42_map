@@ -6,7 +6,7 @@
 
 <style type="text/css">
 
-        #mynetwork {
+        #dn42 {
             width: {{width}};
             height: {{height}};
             background-color: {{bgcolor}};
@@ -114,12 +114,43 @@
 	      display:none;
 	    }
         {% endif %}
+
+        .vis-network-tooltip {
+            display:none;
+        } 
+        #tooltip-popup {
+            position: fixed;
+            display: none;
+            border-radius: 12px;
+            -moz-border-radius: 12px;
+            -webkit-border-radius: 12px;
+            z-index: 1004;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 3px;
+            padding-top: 0px;
+            color: #003c00;
+            font-weight: bold;
+            background-color: orange;
+            max-height: 33%;
+            max-width: 25%;
+            width: auto;
+            height: auto;
+            overflow: auto;
+            opacity: 0.81;
+            bottom: 12px;
+            left: 12px;
+            white-space: nowrap;
+            font-family: monospace;
+        }
+
 </style>
 
 </head>
 
 <body>
-<div id = "mynetwork"></div>
+<div id = "dn42"></div>
+<div id = "tooltip-popup"></div>
 {% if nodes|length > 100 and physics_enabled %}
 <div id="loadingBar">
     <div class="outerBorder">
@@ -142,10 +173,89 @@
     var container;
     var options, data;
 
+
+    function on_node_deselect(params) {
+        var popup = document.getElementById('tooltip-popup');
+            if (params.nodes.length == 0) {
+                popup.innerHTML = "";
+                popup.style.display = "none";
+                undo_highlight_neighbours();
+            }
+        }
+    function on_node_select(params) {
+        var popup = document.getElementById('tooltip-popup');
+        if (params.nodes.length != 0) {
+            popup.innerHTML = nodes.get(params.nodes[0]).title;
+            popup.style.display = "block";
+            highlight_neighbours(params.nodes[0]);
+        }
+    }
+    function select_node(nid) {
+        network.selectNodes([nid]);
+        network.focus(nid);
+        on_node_select(
+            {nodes: [nid]}
+        )
+    }
+    function highlight_neighbours(selected) {
+        let nodes_distance = {[selected]: 0};
+        let unvisited = new Set();
+        for (let n of nodes.get()) {
+            unvisited.add(n.id)
+        }
+        unvisited.delete(selected);
+        function scan_nbr(distance, curnode) {
+            if (unvisited.size > 0) {
+                unvisited.delete(curnode);
+                let connectedNodes = network.getConnectedNodes(curnode);
+                let to_scan = [];
+                for (let n of connectedNodes) {
+                    if (nodes_distance[n] == undefined) {
+                        nodes_distance[n] = distance;
+                        to_scan.push(n);
+                    }
+                }
+                for (let n of to_scan) { scan_nbr(distance+1, n); }
+            }
+        }
+        scan_nbr(1, selected);
+        function node_color(distance) {
+            switch(distance) {
+                case 0:
+                    return "#97c2fc";
+                    break;
+                case 1:
+                    return "#62f065";
+                    break;
+                case 2:
+                    return "#c0f59f";
+                    break;
+                case 3:
+                    return "#f7db92";
+                    break;
+                case 4:
+                    return "#db833b";
+                    break;
+                default:
+                    return "#d97171";
+            }
+        }
+        for (let node of nodes.get()) {
+            distance = nodes_distance[node.id]
+            node.color = node_color(distance);
+            nodes.update(node);
+        }
+    }
+    function undo_highlight_neighbours() {
+        for (let node of nodes.get()) {
+            node.color = "#97c2fc";
+            nodes.update(node);
+        }
+    }
     
     // This method is responsible for drawing the graph, returns the drawn network
     function drawGraph() {
-        var container = document.getElementById('mynetwork');
+        var container = document.getElementById('dn42');
         
         {% if use_DOT %}
 
@@ -176,13 +286,16 @@
         options.layout = {
             improvedLayout: false
         }
-        options.edges.color = "rgba(43,124,233,0.52)";
+        options.edges.color = "rgba(43,124,233,0.42)";
 
-        options.shadow = {
-            enabled: true,
-            size: 2,
-            x: 1,
-            y: 1
+        options.nodes = {
+            color: "#97c2fc",
+            shadow: {
+                enabled: true,
+                size: 8,
+                x: 1,
+                y: 1
+            }
         }
 
         options.physics.barnesHut = {
@@ -285,6 +398,8 @@
 	        // really clean the dom element
 	        setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
 	    });
+        network.on('deselectNode', on_node_deselect);
+        network.on('selectNode', on_node_select);
         {% endif %}
 
         return network;

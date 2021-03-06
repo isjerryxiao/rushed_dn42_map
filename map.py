@@ -11,6 +11,11 @@ def asname(asn: int) -> str:
         return asname_cache.setdefault(asn, name)
     except Exception:
         return "NULL"
+def asinfo(asn: int) -> str:
+    try:
+        return Path(f'registry/data/aut-num/AS{asn}').read_text()
+    except Exception:
+        return "NULL"
 
 source = Path('grc.txt').read_text()
 
@@ -56,8 +61,15 @@ net = Network()
 net.path = "templates/template.html"
 net.width = net.height = "100%"
 
-genpeers = lambda asn: "\n".join([asname(asn) for asn in fullasmap[asn]])
-gentitle = lambda asn: f"AS{asn}\n{asname(asn)}\nPeers: {len(fullasmap[asn])}\n{genpeers(asn)}".replace("\n", "<br/>")
+def gentitle(asn):
+    ret = list()
+    ret.append(f"<div>AS{asn} {asname(asn)}</div>")
+    for i in asinfo(asn).split("\n"):
+        ret.append(f"<div>{i}</div>")
+    ret.append(f"<br/><div>Peers: {len(fullasmap[asn])}</div><br/>")
+    for peeras in fullasmap[asn]:
+        ret.append(f"<div onclick=\"select_node({peeras});\">{asname(peeras)}</div>")
+    return "".join(ret)
 from math import sqrt
 for asn, peers in fullasmap.items():
     size = sqrt(sqrt(len(peers)+1)) * 10
