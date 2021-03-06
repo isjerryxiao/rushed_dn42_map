@@ -43,14 +43,14 @@ jobs:
           echo "$KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           cat ~/.ssh/config || true
-          echo -e "UserKnownHostsFile /dev/null\nStrictHostKeyChecking no" > ~/.ssh/config
-          bash gen.sh 2>&1 |sed "s/${HOST%@*}/***/g; s/${HOST#*@}/***/g"
+          echo -e "LogLevel QUIET\nUserKnownHostsFile /dev/null\nStrictHostKeyChecking no" > ~/.ssh/config
+          bash gen.sh
           cp index.html pages/
           cd pages
           git config user.email "bot@github.com"
           git config user.name "bot"
           git add index.html
-          git commit -m "Generated at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          git commit --allow-empty -m "Generated at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           git push origin pages
           } || { shred ~/.ssh/id_ed25519; exit 1; }
           shred ~/.ssh/id_ed25519
