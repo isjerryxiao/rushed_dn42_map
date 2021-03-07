@@ -134,6 +134,7 @@
             background-color: orange;
             max-height: 33%;
             max-width: 25%;
+            min-width: 20%;
             width: auto;
             height: auto;
             overflow: auto;
@@ -143,6 +144,26 @@
             white-space: nowrap;
             font-family: monospace;
         }
+        #search-area {
+            position: fixed;
+            display: none;
+            border-radius: 12px;
+            -moz-border-radius: 12px;
+            -webkit-border-radius: 12px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 0px;
+            padding-top: 3px;
+            color: #0023ec;
+            background-color: rgba(0, 0, 0, 0);
+            max-height: 33%;
+            max-width: 25%;
+            width: auto;
+            height: auto;
+            overflow: auto;
+            top: 12px;
+            left: 12px;
+        }
 
 </style>
 
@@ -150,6 +171,10 @@
 
 <body>
 <div id = "dn42"></div>
+<div id = "search-area">
+    <input type="text" id="search-box" placeholder="search" onchange="on_search();" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();">
+    <div id = "search-result"></div>
+</div>
 <div id = "tooltip-popup"></div>
 {% if nodes|length > 100 and physics_enabled %}
 <div id="loadingBar">
@@ -174,6 +199,33 @@
     var options, data;
 
 
+    function on_search() {
+        let result = document.getElementById('search-result');
+        let searchbox = document.getElementById('search-box');
+        let search_result = [];
+        if (searchbox.value != "") {
+            for (let node of nodes.get()) {
+                if (String(node.id).includes(searchbox.value) || node.label.toLowerCase().includes(searchbox.value)) {
+                    if (search_result.length < 3) {
+                        search_result.push(node);
+                    }
+                    else { break; }
+                }
+            }
+        }
+        result.innerHTML = "";
+        for (let node of search_result) {
+            let ntext = document.createTextNode(node.label);
+            let ndiv = document.createElement("div");
+            ndiv.onclick = function() {
+                select_node(node.id);
+                searchbox.value = "";
+                result.innerHTML = "";
+            };
+            ndiv.appendChild(ntext);
+            result.appendChild(ndiv);
+        }
+    }
     function on_node_deselect(params) {
         var popup = document.getElementById('tooltip-popup');
             if (params.nodes.length == 0) {
@@ -210,7 +262,7 @@
                 let connectedNodes = network.getConnectedNodes(curnode);
                 let to_scan = [];
                 for (let n of connectedNodes) {
-                    if (nodes_distance[n] == undefined) {
+                    if (nodes_distance[n] == undefined || nodes_distance[n] > distance) {
                         nodes_distance[n] = distance;
                         to_scan.push(n);
                     }
@@ -236,8 +288,10 @@
                 case 4:
                     return "#db833b";
                     break;
+                case 5:
+                    return "#f2877c"
                 default:
-                    return "#d97171";
+                    return "#a30000";
             }
         }
         for (let node of nodes.get()) {
@@ -395,6 +449,7 @@
 	        document.getElementById('text').innerHTML = '100%';
 	        document.getElementById('bar').style.width = '496px';
 	        document.getElementById('loadingBar').style.opacity = 0;
+            document.getElementById('search-area').style.display = "block";
 	        // really clean the dom element
 	        setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
 	    });
