@@ -124,7 +124,6 @@
             border-radius: 12px;
             -moz-border-radius: 12px;
             -webkit-border-radius: 12px;
-            z-index: 1004;
             padding-right: 10px;
             padding-left: 10px;
             padding-bottom: 3px;
@@ -142,7 +141,8 @@
             bottom: 12px;
             left: 12px;
             white-space: nowrap;
-            font-family: monospace;
+            font-size: 1em;
+            font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
         }
         #search-area {
             position: fixed;
@@ -164,6 +164,11 @@
             top: 12px;
             left: 12px;
         }
+        pre {
+            font-weight: bold;
+            font-size: 1em;
+            font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        }
 
 </style>
 
@@ -172,7 +177,7 @@
 <body>
 <div id = "dn42"></div>
 <div id = "search-area">
-    <input type="text" id="search-box" placeholder="search" onchange="on_search();" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();">
+    <input type="text" id="search-box" placeholder="search" oninput="on_search();">
     <div id = "search-result"></div>
 </div>
 <div id = "tooltip-popup"></div>
@@ -251,26 +256,16 @@
     }
     function highlight_neighbours(selected) {
         let nodes_distance = {[selected]: 0};
-        let unvisited = new Set();
-        for (let n of nodes.get()) {
-            unvisited.add(n.id)
-        }
-        unvisited.delete(selected);
-        function scan_nbr(distance, curnode) {
-            if (unvisited.size > 0) {
-                unvisited.delete(curnode);
-                let connectedNodes = network.getConnectedNodes(curnode);
-                let to_scan = [];
-                for (let n of connectedNodes) {
-                    if (nodes_distance[n] == undefined || nodes_distance[n] > distance) {
-                        nodes_distance[n] = distance;
-                        to_scan.push(n);
-                    }
+        let queue = [selected];
+        while (queue.length > 0) {
+            let item = queue.shift();
+            for (let nbr of network.getConnectedNodes(item)) {
+                if (nodes_distance[nbr] == undefined) {
+                    nodes_distance[nbr] = nodes_distance[item] + 1;
+                    queue.push(nbr);
                 }
-                for (let n of to_scan) { scan_nbr(distance+1, n); }
             }
         }
-        scan_nbr(1, selected);
         function node_color(distance) {
             switch(distance) {
                 case 0:

@@ -1,6 +1,8 @@
 myas = [4242423618, 4201270006]
 
 from pathlib import Path
+from math import sqrt
+import json
 
 asname_cache = dict()
 def asname(asn: int) -> str:
@@ -56,6 +58,75 @@ for line in source.split('\n'):
 assert asmap
 assert fullasmap
 
+def calc_centrality():
+    all_distance = dict()
+    _betweenness = {k: 0.0 for k in fullasmap}
+    for asn in fullasmap:
+        distance = all_distance.setdefault(asn, dict())
+        distance[asn] = 0
+        queue = [asn]
+        _search_order = list()
+        _path_via = {k: list() for k in fullasmap}
+        _sigma = {k: 0 for k in fullasmap}
+        _delta = {k: 0.0 for k in fullasmap}
+        _sigma[asn] += 1
+        while queue:
+            item = queue.pop(0)
+            _search_order.append(item)
+            for nbr in fullasmap[item]:
+                if nbr not in distance:
+                    distance[nbr] = distance[item] + 1
+                    queue.append(nbr)
+                if distance[nbr] == distance[item] + 1:
+                    _sigma[nbr] += _sigma[item]
+                    _path_via[nbr].append(item)
+        while _search_order:
+            item = _search_order.pop(-1)
+            _coeff = (1.0 + _delta[item]) / _sigma[item]
+            for _ups in _path_via[item]:
+                _delta[_ups] += _sigma[_ups] * _coeff
+            if item != asn:
+                _betweenness[item] += _delta[item]
+    _maplen = len(fullasmap)
+    _scale = 1.0 / (_maplen - 1) * (_maplen - 2)
+    _betweenness = [(k, v * _scale) for k, v in _betweenness.items()]
+    _betweenness.sort(key=lambda x: x[1], reverse=True)
+    _betweenness = {k: v for k, v in _betweenness}
+    closeness = list()
+    for asn, dis in all_distance.items():
+        assert len(all_distance) == len(dis)
+        closeness.append((asn, (len(all_distance) - 1) / sum(dis.values())))
+    closeness.sort(key=lambda x: x[1], reverse=True)
+    closeness = {k: v for k, v in closeness}
+    return (closeness, _betweenness)
+
+closeness_centrality, betweenness_centrality = calc_centrality()
+
+def my_centrality():
+    node_centrality = list()
+    """ should be within 10 - 30 """
+    for asn in fullasmap:
+        size1 = closeness_centrality[asn] * 50
+        size2 = 2 * (betweenness_centrality[asn] ** 0.25 + 5)
+        size = 0.5 * (size1 + size2)
+        node_centrality.append((asn, size))
+    node_centrality.sort(key=lambda x: x[1], reverse=True)
+    return {k: v for k, v in node_centrality}
+node_centrality = my_centrality()
+
+to_dump = list()
+for idx, asn in enumerate(node_centrality.keys()):
+    entry = {
+        "asn": asn,
+        "name": asname(asn),
+        "centrality": node_centrality[asn],
+        "rank": idx + 1,
+        "closeness": closeness_centrality[asn],
+        "betweenness": betweenness_centrality[asn]
+    }
+    to_dump.append(entry)
+Path("isp.json").write_text(json.dumps(to_dump))
+
 from pyvis.network import Network
 net = Network()
 net.path = "templates/template.html"
@@ -63,16 +134,21 @@ net.width = net.height = "100%"
 
 def gentitle(asn):
     ret = list()
-    ret.append(f"<div>AS{asn} {asname(asn)}</div>")
-    for i in asinfo(asn).split("\n"):
-        ret.append(f"<div>{i}</div>")
-    ret.append(f"<br/><div>Peers: {len(fullasmap[asn])}</div><br/>")
+    ret.append(f"<p></p><div>AS{asn} {asname(asn)}</div>")
+    ret.append(f"<div>centrality: {node_centrality[asn]:.2f}</div>")
+    ret.append(f"<div>closeness: {closeness_centrality[asn]:.2f}</div>")
+    ret.append(f"<div>betweenness: {betweenness_centrality[asn]:.2f}</div>")
+    ret.append(f"<div>peer count: {len(fullasmap[asn])}</div>")
+    ret.append(f"<p></p><div>Peer list:</div><p></p>")
     for peeras in fullasmap[asn]:
         ret.append(f"<div onclick=\"select_node({peeras});\">{asname(peeras)}</div>")
+    ret.append("<p></p><div>Registey:</div>")
+    _registry = asinfo(asn)#.replace("\n", "<br/>")
+    ret.append(f"<pre>{_registry}</pre>")
     return "".join(ret)
-from math import sqrt
 for asn, peers in fullasmap.items():
-    size = sqrt(sqrt(len(peers)+1)) * 10
+    #size = sqrt(sqrt(len(peers)+1)) * 10
+    size = node_centrality[asn]
     net.add_node(asn, label=asname(asn), size=size, title=gentitle(asn))
 for asn, peers in asmap.items():
     for p in peers:

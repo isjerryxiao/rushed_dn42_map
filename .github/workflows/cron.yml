@@ -45,7 +45,7 @@ jobs:
           cat ~/.ssh/config || true
           echo -e "LogLevel QUIET\nUserKnownHostsFile /dev/null\nStrictHostKeyChecking no" > ~/.ssh/config
           bash gen.sh
-          cp index.html pages/
+          cp index.html isp.json pages/
           cd pages
           git config user.email "bot@github.com"
           git config user.name "bot"
