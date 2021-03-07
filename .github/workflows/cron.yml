@@ -49,7 +49,7 @@ jobs:
           cd pages
           git config user.email "bot@github.com"
           git config user.name "bot"
-          git add index.html
+          git add index.html isp.json
           git commit --allow-empty -m "Generated at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           git push origin pages
           } || { shred ~/.ssh/id_ed25519; exit 1; }
