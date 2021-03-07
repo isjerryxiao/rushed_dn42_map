@@ -88,7 +88,7 @@ def calc_centrality():
             if item != asn:
                 _betweenness[item] += _delta[item]
     _maplen = len(fullasmap)
-    _scale = 1.0 / (_maplen - 1) * (_maplen - 2)
+    _scale = 1.0 / ((_maplen - 1) * (_maplen - 2))
     _betweenness = [(k, v * _scale) for k, v in _betweenness.items()]
     _betweenness.sort(key=lambda x: x[1], reverse=True)
     _betweenness = {k: v for k, v in _betweenness}
@@ -105,16 +105,27 @@ closeness_centrality, betweenness_centrality = calc_centrality()
 def my_centrality():
     node_centrality = list()
     """ should be within 10 - 30 """
+    mmin = 10.0
+    mmax = 30.0
+    clmin = min(closeness_centrality.values())
+    clmax = max(closeness_centrality.values())
+    bemin = min([v**0.25 for v in betweenness_centrality.values()])
+    bemax = max([v**0.25 for v in betweenness_centrality.values()])
+    clcalc = lambda x: ((mmax-mmin)/(clmax-clmin)*(x-clmin) + mmin)
+    becalc = lambda x: ((mmax-mmin)/(bemax-bemin)*(x-bemin) + mmin)
     for asn in fullasmap:
-        size1 = closeness_centrality[asn] * 50
-        size2 = 2 * (betweenness_centrality[asn] ** 0.25 + 5)
-        size = 0.5 * (size1 + size2)
+        cl = closeness_centrality[asn]
+        be = betweenness_centrality[asn] ** 0.25
+        cl = clcalc(cl)
+        be = becalc(be)
+        size = 0.5 * (be + cl)
+        print(be, cl, size)
         node_centrality.append((asn, size))
     node_centrality.sort(key=lambda x: x[1], reverse=True)
     return {k: v for k, v in node_centrality}
 node_centrality = my_centrality()
 
-to_dump = list()
+dict_to_dump = dict()
 for idx, asn in enumerate(node_centrality.keys()):
     entry = {
         "asn": asn,
@@ -124,8 +135,9 @@ for idx, asn in enumerate(node_centrality.keys()):
         "closeness": closeness_centrality[asn],
         "betweenness": betweenness_centrality[asn]
     }
-    to_dump.append(entry)
-Path("isp.json").write_text(json.dumps(to_dump))
+    dict_to_dump[asn] = entry
+to_dump = [v for v in dict_to_dump.values()]
+Path("isp.json").write_text(json.dumps(to_dump, indent=2))
 
 from pyvis.network import Network
 net = Network()
@@ -135,6 +147,7 @@ net.width = net.height = "100%"
 def gentitle(asn):
     ret = list()
     ret.append(f"<p></p><div>AS{asn} {asname(asn)}</div>")
+    ret.append(f"<div>rank: {dict_to_dump[asn]['rank']}</div>")
     ret.append(f"<div>centrality: {node_centrality[asn]:.2f}</div>")
     ret.append(f"<div>closeness: {closeness_centrality[asn]:.2f}</div>")
     ret.append(f"<div>betweenness: {betweenness_centrality[asn]:.2f}</div>")
