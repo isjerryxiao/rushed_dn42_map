@@ -119,7 +119,6 @@ def my_centrality():
         cl = clcalc(cl)
         be = becalc(be)
         size = 0.5 * (be + cl)
-        print(be, cl, size)
         node_centrality.append((asn, size))
     node_centrality.sort(key=lambda x: x[1], reverse=True)
     return {k: v for k, v in node_centrality}
@@ -130,6 +129,7 @@ for idx, asn in enumerate(node_centrality.keys()):
     entry = {
         "asn": asn,
         "name": asname(asn),
+        "peers": len(fullasmap[asn]),
         "centrality": node_centrality[asn],
         "rank": idx + 1,
         "closeness": closeness_centrality[asn],
@@ -148,14 +148,14 @@ def gentitle(asn):
     ret = list()
     ret.append(f"<p></p><div>AS{asn} {asname(asn)}</div>")
     ret.append(f"<div>rank: {dict_to_dump[asn]['rank']}</div>")
-    ret.append(f"<div>centrality: {node_centrality[asn]:.2f}</div>")
-    ret.append(f"<div>closeness: {closeness_centrality[asn]:.2f}</div>")
-    ret.append(f"<div>betweenness: {betweenness_centrality[asn]:.2f}</div>")
+    ret.append(f"<div>centrality: {node_centrality[asn]:.4f}</div>")
+    ret.append(f"<div>closeness: {closeness_centrality[asn]:.4f}</div>")
+    ret.append(f"<div>betweenness: {betweenness_centrality[asn]:.4f}</div>")
     ret.append(f"<div>peer count: {len(fullasmap[asn])}</div>")
     ret.append(f"<p></p><div>Peer list:</div><p></p>")
     for peeras in fullasmap[asn]:
         ret.append(f"<div onclick=\"select_node({peeras});\">{asname(peeras)}</div>")
-    ret.append("<p></p><div>Registey:</div>")
+    ret.append("<p></p><div>Registry:</div>")
     _registry = asinfo(asn)#.replace("\n", "<br/>")
     ret.append(f"<pre>{_registry}</pre>")
     return "".join(ret)
