@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/15 * * * *"
 
 jobs:
   build:
@@ -43,7 +43,7 @@ jobs:
           echo "$KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           cat ~/.ssh/config || true
-          echo -e "LogLevel QUIET\nUserKnownHostsFile /dev/null\nStrictHostKeyChecking no" > ~/.ssh/config
+          echo -e "Compression yes\nLogLevel QUIET\nUserKnownHostsFile /dev/null\nStrictHostKeyChecking no" > ~/.ssh/config
           bash gen.sh
           cp index.html isp.json pages/
           cd pages
