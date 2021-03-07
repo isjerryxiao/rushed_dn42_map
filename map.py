@@ -1,3 +1,4 @@
+grc = 4242422602
 myas = [4242423618, 4201270006]
 
 from pathlib import Path
@@ -33,6 +34,8 @@ for line in source.split('\n'):
     path = line.removeprefix('BGP.as_path: ').split()
     try:
         path = [int(i) for i in path if i]
+        if path and path[0] == grc:
+            path.pop(0)
     except Exception:
         print("path", path, "is garbage")
         continue
