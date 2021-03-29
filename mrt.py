@@ -112,7 +112,9 @@ class subprocessBzip2:
             self.p.wait()
         finally:
             self.f.close()
-            if (ret := self.p.returncode) or (stderr := self.p.stderr.read()):
+            ret = self.p.returncode
+            stderr = self.p.stderr.read()
+            if ret or stderr:
                 print(f"{ret=} {stderr=}")
 
 with showTime('dump jsonl'):
