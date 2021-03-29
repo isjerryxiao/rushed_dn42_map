@@ -39,6 +39,7 @@ jobs:
           pushd pages
           git config user.email "bot@github.com"
           git config user.name "bot"
+          git fetch --unshallow
           git reset --hard f2bb2a8913fc4810ce43446de130572479171d70
           git clean -fxd :/
           popd
