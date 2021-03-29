@@ -49,17 +49,19 @@ jobs:
           mkdir -p binary
           cp parsed.jsonl.bz2 binary/
 
-          cd pages
+          pushd pages
           git config user.email "bot@github.com"
           git config user.name "bot"
           git add .
           git commit --allow-empty -m "Generated at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           git push origin pages
+          popd
 
-          cd binary
+          pushd binary
           git init .
           git config user.email "bot@github.com"
           git config user.name "bot"
           git add .
           git commit --allow-empty -m "Generated at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           git push --force --quiet "git@github.com:isjerryxiao/rushed_dn42_map.git" HEAD:binary
+          popd
