@@ -1,9 +1,7 @@
-grc = 4242422602
-myas = [4242423618, 4201270006]
-
 from pathlib import Path
 from math import sqrt
 import json
+import bz2
 
 asname_cache = dict()
 def asname(asn: int) -> str:
@@ -20,43 +18,35 @@ def asinfo(asn: int) -> str:
     except Exception:
         return "NULL"
 
-source = Path('grc.txt').read_text()
-
 asmap = dict()
 fullasmap = dict()
 
-for line in source.split('\n'):
-    if not "BGP.as_path:" in line:
-        continue
-    line = line.strip()
-    if not line:
-        continue
-    path = line.removeprefix('BGP.as_path: ').split()
-    try:
-        path = [int(i) for i in path if i]
-        if path and path[0] == grc:
-            path.pop(0)
-    except Exception:
-        print("path", path, "is garbage")
-        continue
+def iter_path(p):
+    for idx in range(len(p)-1):
+        as1, as2 = p[idx:idx+2]
+        if as1 == as2:
+            continue
+        if as2 in asmap.get(as1, set()):
+            continue
+        if as1 in asmap.get(as2, set()):
+            continue
+        fullasmap.setdefault(as1, set()).add(as2)
+        fullasmap.setdefault(as2, set()).add(as1)
+        asmap.setdefault(as1, set()).add(as2)
 
-    def iter_path(p):
-        for idx in range(len(p)-1):
-            as1, as2 = p[idx:idx+2]
-            if as1 == as2:
-                continue
-            if as2 in asmap.get(as1, set()):
-                continue
-            if as1 in asmap.get(as2, set()):
-                continue
-            fullasmap.setdefault(as1, set()).add(as2)
-            fullasmap.setdefault(as2, set()).add(as1)
-            asmap.setdefault(as1, set()).add(as2)
-#    for _as in myas:
-#        p = path.copy()
-#        p.insert(0, _as)
-#        iter_path(p)
-    iter_path(path)
+with bz2.BZ2File("parsed.jsonl.bz2", 'r') as f:
+    while line := f.readline():
+        entry = json.loads(line)
+        if entry["type"] in {"ipv4", "ipv6"}:
+            for rib in entry["rib"]:
+                try:
+                    p = [int(i) for i in rib["as_path"]]
+                except Exception:
+                    print(rib)
+                    raise
+                iter_path(p)
+        else:
+            assert entry["type"] == "metadata"
 
 assert asmap
 assert fullasmap
