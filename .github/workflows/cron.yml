@@ -31,11 +31,10 @@ jobs:
 
       - env:
           KEY: ${{ secrets.KEY }}
+          GIT_DN42_TOKEN: ${{ secrets.GIT_DN42_TOKEN }}
         shell: bash
         run: |
           set -ex
-          sudo apt update -qq
-          sudo apt install -y openssh-client git
           mkdir -p ~/.ssh
           echo "$KEY" > ~/.ssh/id_ed25519
 
