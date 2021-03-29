@@ -117,7 +117,7 @@
 
         .vis-network-tooltip {
             display:none;
-        } 
+        }
         #tooltip-popup {
             position: fixed;
             display: none;
@@ -199,7 +199,7 @@
     // initialize global variables.
     var edges;
     var nodes;
-    var network; 
+    var network;
     var container;
     var options, data;
 
@@ -302,26 +302,26 @@
             nodes.update(node);
         }
     }
-    
+
     // This method is responsible for drawing the graph, returns the drawn network
     function drawGraph() {
         var container = document.getElementById('dn42');
-        
+
         {% if use_DOT %}
 
         var DOTstring = "{{dot_lang|safe}}";
         var parsedData = vis.network.convertDot(DOTstring);
-        
+
         data = {
           nodes: parsedData.nodes,
           edges: parsedData.edges
         }
-        
+
         var options = parsedData.options;
         options.nodes = {
             shape: "dot"
         }
-        
+
         {% else %}
 
         // parsing and collecting nodes and edges from the python
@@ -353,7 +353,7 @@
             springLength: 235
         }
         options.physics.minVelocity = 0.75;
-        
+
         {% endif %}
 
         {% if conf %}
@@ -363,7 +363,7 @@
         {% endif %}
 
         network = new vis.Network(container, data, options);
-	 
+
         {% if tooltip_link %}
         // make a custom popup
         var popup = document.createElement("div");
@@ -448,6 +448,14 @@
             document.getElementById('search-area').style.display = "block";
 	        // really clean the dom element
 	        setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+
+            let node = new URL(window.location).searchParams.get("node");
+            if (node) {
+                node = Number(node);
+                if (Number.isInteger(node) && nodes.get(node)) {
+                    select_node(node);
+                }
+            }
 	    });
         network.on('deselectNode', on_node_deselect);
         network.on('selectNode', on_node_select);
