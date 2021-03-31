@@ -3,20 +3,30 @@ from math import sqrt
 import json
 import bz2
 
-asname_cache = dict()
+registry_info = dict()
+def gen_registry_info() -> None:
+    for f in Path('registry/data/aut-num').iterdir():
+        if f.name.startswith("AS"):
+            asn = int(f.name.removeprefix("AS"))
+            assert asn not in registry_info
+            info = registry_info[asn] = dict()
+            raw = f.read_text()
+            info['raw'] = raw
+            info['name'] = list(filter(lambda x: "as-name:" in x, raw.split('\n')))[-1].removeprefix("as-name:").strip()
+
+gen_registry_info()
+Path("registry.json").write_text(json.dumps(registry_info, separators=(',', ':')))
+
 def asname(asn: int) -> str:
     try:
-        if not (name := asname_cache.get(asn)):
-            ln = list(filter(lambda x: "as-name:" in x, Path(f'registry/data/aut-num/AS{asn}').read_text().split('\n')))[-1]
-            name = ln.removeprefix("as-name:").strip()
-        return asname_cache.setdefault(asn, name)
+        return registry_info[asn]['name']
     except Exception:
-        return "NULL"
+        return f"No such as {asn}"
 def asinfo(asn: int) -> str:
     try:
-        return Path(f'registry/data/aut-num/AS{asn}').read_text()
+        return registry_info[asn]['raw']
     except Exception:
-        return "NULL"
+        return f"No such as {asn}"
 
 asmap = dict()
 fullasmap = dict()
