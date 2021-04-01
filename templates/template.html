@@ -15,7 +15,7 @@
             float: left;
         }
 
-        {% if nodes|length > 100 and physics_enabled %}
+        {% if physics_enabled %}
         #loadingBar {
             position:absolute;
             top:0px;
@@ -181,7 +181,7 @@
     <div id = "search-result"></div>
 </div>
 <div id = "tooltip-popup"></div>
-{% if nodes|length > 100 and physics_enabled %}
+{% if physics_enabled %}
 <div id="loadingBar">
     <div class="outerBorder">
         <div id="text">0%</div>
@@ -430,7 +430,7 @@
         {% endif %}
 
 
-        {% if nodes|length > 100 and physics_enabled %}
+        {% if physics_enabled %}
         network.on("stabilizationProgress", function(params) {
       		document.getElementById('loadingBar').removeAttribute("style");
 	        var maxWidth = 496;
