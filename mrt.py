@@ -10,28 +10,24 @@ import subprocess
 from typing import TextIO
 from io import BytesIO
 import json
-
-reqs = requests.Session()
+from multiprocessing import Pool
 
 def download_file(url: str) -> BytesIO:
     obj = BytesIO()
-    r = reqs.get(url, stream=True)
+    r = requests.get(url, stream=True)
     r.raise_for_status()
     for chunk in r.iter_content(chunk_size=128):
         obj.write(chunk)
     obj.seek(0)
     return obj
 
-entries = {"metadata": list(), "ipv4": list(), "ipv6": list()}
-
 def process_entry(entry: mrtparse.Reader) -> dict:
     if getattr(entry, 'err', None) is not None:
         raise Exception("{entry.err=} {entry.err_msg=} {entry.buf=}")
-    parsed = dict()
     entry = entry.data
     subtype = entry.get('subtype', [None, "None"])[0]
     if subtype == 1:
-        entries['metadata'].append({
+        metadata.update({ # pylint:disable=undefined-variable
             'timestamp': entry['timestamp'][0],
             'time': entry['timestamp'][1],
         })
@@ -66,25 +62,24 @@ def process_entry(entry: mrtparse.Reader) -> dict:
         print(f"unknown {subtype=}")
         return None
 
-with showTime('download master4'):
-    master4 = download_file('https://grc.jerryxiao.cc/master4_latest.mrt.bz2')
-with showTime('download master6'):
-    master6 = download_file('https://grc.jerryxiao.cc/master6_latest.mrt.bz2')
+def process_master_n(version: int) -> tuple:
+    with showTime(f'download master{version}', print_until_finished=True):
+        master_n = download_file(f'https://grc.jerryxiao.cc/master{version}_latest.mrt.bz2')
+    with showTime(f'process master{version}', print_until_finished=True):
+        metadata = globals()['metadata'] = dict()
+        entries = list()
+        for entry in mrtparse.Reader(bz2.BZ2File(master_n, 'rb')):
+            assert getattr(entry, 'err', None) is None
+            processed = process_entry(entry)
+            if processed is not None:
+                entries.append(processed)
+    return (metadata, entries)
 
-with showTime('process master4'):
-    for entry in mrtparse.Reader(bz2.BZ2File(master4, 'rb')):
-        assert getattr(entry, 'err', None) is None
-        processed = process_entry(entry)
-        if processed is not None:
-            entries["ipv4"].append(processed)
-with showTime('process master6'):
-    for entry in mrtparse.Reader(bz2.BZ2File(master6, 'rb')):
-        assert getattr(entry, 'err', None) is None
-        processed = process_entry(entry)
-        if processed is not None:
-            entries["ipv6"].append(processed)
-
-entries["metadata"] = dict(zip(["ipv4", "ipv6"], entries["metadata"]))
+with Pool(2) as pool:
+    processed_4, processed_6 = pool.map(process_master_n, (4, 6))
+metadata4, entries4 = processed_4
+metadata6, entries6 = processed_6
+entries = {"metadata": {"ipv4": metadata4, "ipv6": metadata6}, "ipv4": entries4, "ipv6": entries6}
 
 class subprocessBzip2:
     def __init__(self, fname: os.PathLike, *_) -> None:
