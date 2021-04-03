@@ -1,7 +1,8 @@
+from utils import showTime
+
 import mrtparse
 import requests
 
-from time import time
 from shutil import which
 import os
 import bz2
@@ -9,7 +10,6 @@ import subprocess
 from typing import TextIO
 from io import BytesIO
 import json
-import itertools
 
 reqs = requests.Session()
 
@@ -65,15 +65,6 @@ def process_entry(entry: mrtparse.Reader) -> dict:
     else:
         print(f"unknown {subtype=}")
         return None
-
-class showTime:
-    def __init__(self, *args) -> None:
-        print(*args, end=' ', flush=True)
-    def __enter__(self) -> None:
-        self.__start = time()
-    def __exit__(self, *_) -> None:
-        self.__end = time()
-        print(f"{self.__end - self.__start:.2f}s")
 
 with showTime('download master4'):
     master4 = download_file('https://grc.jerryxiao.cc/master4_latest.mrt.bz2')

@@ -30,7 +30,6 @@ jobs:
       - run: pip install -r req.txt
 
       - env:
-          #KEY: ${{ secrets.KEY }}
           GIT_DN42_TOKEN: ${{ secrets.GIT_DN42_TOKEN }}
         shell: bash
         run: |
@@ -43,14 +42,6 @@ jobs:
           git reset --hard f2bb2a8913fc4810ce43446de130572479171d70
           git clean -fxd :/
           popd
-
-          #mkdir -p ~/.ssh
-          #echo "$KEY" > ~/.ssh/id_ed25519
-
-          #trap "shred -v ~/.ssh/id_ed25519" ERR EXIT
-          #chmod 600 ~/.ssh/id_ed25519
-          #cat ~/.ssh/config || true
-          #echo -e "Compression yes\nLogLevel QUIET\nUserKnownHostsFile /dev/null\nStrictHostKeyChecking no" > ~/.ssh/config
 
           bash gen.sh
           cp index.html isp.json parsed.jsonl.bz2 registry.json pages/
