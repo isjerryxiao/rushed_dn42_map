@@ -69,7 +69,6 @@ def process_master_n(version: int) -> tuple:
         metadata = globals()['metadata'] = dict()
         entries = list()
         for entry in mrtparse.Reader(bz2.BZ2File(master_n, 'rb')):
-            assert getattr(entry, 'err', None) is None
             processed = process_entry(entry)
             if processed is not None:
                 entries.append(processed)
