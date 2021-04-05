@@ -23,7 +23,7 @@ def download_file(url: str) -> BytesIO:
 
 def process_entry(entry: mrtparse.Reader) -> dict:
     if getattr(entry, 'err', None) is not None:
-        raise Exception("{entry.err=} {entry.err_msg=} {entry.buf=}")
+        raise Exception(f"{entry.err=} {entry.err_msg=} {entry.buf=}")
     entry = entry.data
     subtype = entry.get('subtype', [None, "None"])[0]
     if subtype == 1:
