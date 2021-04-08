@@ -41,8 +41,11 @@ def process_entry(entry: mrtparse.Reader) -> dict:
             for attr in rib_entry['path_attributes']:
                 attr_type = attr['type'][0]
                 if attr_type == 2:
-                    assert len(attr['value']) == 1
-                    rib_attr['as_path'] = attr['value'][0]['value']
+                    parsed_as_path = list()
+                    for as_sequence in attr['value']:
+                        assert as_sequence['type'][0] == 2
+                        parsed_as_path.extend(as_sequence['value'])
+                    rib_attr['as_path'] = parsed_as_path
                 elif attr_type == 8:
                     rib_attr['community'] = attr['value']
                 elif attr_type == 16:
