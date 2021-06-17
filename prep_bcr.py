@@ -73,6 +73,7 @@ while mdate < end_date:
     except HTTPError as err:
         assert err.response.status_code == 404
         print(err)
+        mdate += timedelta(days=1)
         continue
     uniq_asns = set.union(uniq_asns, centrality.keys())
     date_centrality[mdate] = {asn: c**4 for asn, c in centrality.items()}
