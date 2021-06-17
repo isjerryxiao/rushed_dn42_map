@@ -8,7 +8,10 @@ to_date = df.index[-1].strftime("%Y-%m-%d")
 bcr.bar_chart_race(
         fig_kwargs = {"figsize": (9, 5), "dpi": 150},
         df=df,
-        filename='out.mp4',
+        filename='out.mkv',
+        steps_per_period=20,
+        period_length=500,
+        end_period_pause=500,
         orientation='h',
         sort='desc',
         n_bars=30,

@@ -1,6 +1,6 @@
 from mrt import process_master_n
-from multiprocessing import Pool
-from requests.exceptions import HTTPError
+from multiprocessing import Pool, cpu_count
+from requests.exceptions import HTTPError, ConnectionError
 
 from mrtmap import gen_registry_info, asname, iter_path, calc_centrality, my_centrality, fullasmap as _fm
 
@@ -43,9 +43,8 @@ def get_centrality_for(mdate: date) -> dict:
         raises HTTPError
             HTTPError.response.status_code == 404
     '''
-    with showTime('load path info', print_until_finished=True):
-        with Pool(2) as pool:
-            processed_4, processed_6 = pool.map(process_master_n, [f"{mdate.strftime('%Y/%m')}/master{version}_{mdate.strftime('%Y-%m-%d')}.mrt.bz2" for version in (4, 6)])
+    with showTime(f"load path info {mdate.strftime('%Y-%m-%d')}", print_until_finished=True):
+        processed_4, processed_6 = map(process_master_n, [f"{mdate.strftime('%Y/%m')}/master{version}_{mdate.strftime('%Y-%m-%d')}.mrt.bz2" for version in (4, 6)])
         _, entries4 = processed_4
         _, entries6 = processed_6
         for entry in [*entries4, *entries6]:
@@ -57,40 +56,52 @@ def get_centrality_for(mdate: date) -> dict:
                     raise
                 iter_path(p)
 
-    with showTime('calc centrality'):
+    with showTime(f"calc centrality {mdate.strftime('%Y-%m-%d')}", print_until_finished=True):
         return my_centrality(_fm, *calc_centrality(_fm))
 
-date_centrality = dict()
 uniq_asns = set()
 
 start_date = date(2021, 3, 27)
 end_date = date.today()
 #end_date = date(2021, 3, 29)
 
+dates = list()
 mdate = start_date
 while mdate < end_date:
-    print(f"[{(mdate - start_date) / (end_date - start_date) * 100: 3.2f}%] {mdate.strftime('%Y-%m-%d')}")
-    try:
-        centrality = get_centrality_for(mdate)
-    except HTTPError as err:
-        assert err.response.status_code == 404
-        print(err)
-        date_centrality[mdate] = date_centrality[mdate - timedelta(days=1)]
-        mdate += timedelta(days=1)
-        continue
-    except Exception:
-        print_exc()
-        date_centrality[mdate] = date_centrality[mdate - timedelta(days=1)]
-        mdate += timedelta(days=1)
-        continue
-    uniq_asns = set.union(uniq_asns, centrality.keys())
-    date_centrality[mdate] = {asn: c**4 for asn, c in centrality.items()}
+    dates.append(mdate)
     mdate += timedelta(days=1)
+
+def w_get_centrality_for(mdate):
+    while True:
+        print(f"[{(mdate - start_date) / (end_date - start_date) * 100: 3.2f}%] {mdate.strftime('%Y-%m-%d')}")
+        try:
+            centrality = get_centrality_for(mdate)
+            centrality = {asn: c**4 for asn, c in centrality.items()}
+            return centrality
+        except ConnectionError:
+            print_exc()
+            continue
+        except HTTPError as err:
+            assert err.response.status_code == 404
+            print(err)
+        except Exception:
+            print_exc()
+        return None
+
+with Pool(cpu_count()) as pool:
+    results = pool.map(w_get_centrality_for, dates)
+    d_results = dict(zip(dates, results))
+
+    for k in d_results:
+        if d_results[k] is None:
+            d_results[k] = d_results[k - timedelta(days=1)]
+for centrality in d_results.values():
+    uniq_asns = set.union(uniq_asns, centrality.keys())
 
 uniq_asns = tuple(uniq_asns)
 with open('dumpbcr.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["date", *[short_asname(asn) for asn in uniq_asns]])
-    for mdate, centrality in date_centrality.items():
+    for mdate, centrality in d_results.items():
         cdata = lambda: [centrality.get(asn, -1.0) for asn in uniq_asns]
         writer.writerow([mdate.strftime('%Y-%m-%d'), *cdata()])

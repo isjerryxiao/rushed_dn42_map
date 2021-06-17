@@ -16,15 +16,19 @@ def gen_registry_info() -> None:
             info['raw'] = raw
             info['name'] = list(filter(lambda x: "as-name:" in x, raw.split('\n')))[-1].removeprefix("as-name:").strip()
 
-def asname(asn: int) -> str:
+def asname(asn: int, allow_empty=False) -> str:
     try:
         return registry_info[asn]['name']
     except Exception:
+        if allow_empty:
+            return ""
         return f"No such as {asn}"
-def asinfo(asn: int) -> str:
+def asinfo(asn: int, allow_empty=False) -> str:
     try:
         return registry_info[asn]['raw']
     except Exception:
+        if allow_empty:
+            return ""
         return f"No such as {asn}"
 
 asmap = dict()
