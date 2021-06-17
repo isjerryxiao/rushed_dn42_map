@@ -12,6 +12,30 @@ from utils import showTime
 with showTime('load registry info'):
     gen_registry_info()
 
+def short_asname(asn: int) -> str:
+    name = asname(asn, allow_empty=True)
+    if name:
+        MAX_LENGTH = 11
+        _ns = name.split()
+        _ns = str(asn) if not _ns else _ns
+        c = 0
+        l_res = list()
+        for s in _ns:
+            l_res.append(s)
+            if len(" ".join(l_res)) > MAX_LENGTH:
+                l_res.pop(-1)
+                break
+        if not l_res:
+            l_res = [_ns[0][:MAX_LENGTH]]
+        res = " ".join(l_res)
+        if not res:
+            res = str(asn)
+        else:
+            res = f"{res} {asn:10d}"
+    else:
+        res = str(asn)
+    return res
+
 def get_centrality_for(mdate: date) -> dict:
     '''
         raises HTTPError
@@ -34,14 +58,12 @@ def get_centrality_for(mdate: date) -> dict:
     with showTime('calc centrality'):
         return my_centrality(_fm, *calc_centrality(_fm))
 
-#print(get_centrality_for(date(2021, 3, 27)))
-
 date_centrality = dict()
 uniq_asns = set()
 
 start_date = date(2021, 3, 27)
 end_date = date.today()
-end_date = date(2021, 3, 29)
+#end_date = date(2021, 3, 29)
 
 mdate = start_date
 while mdate < end_date:
@@ -53,13 +75,13 @@ while mdate < end_date:
         print(err)
         continue
     uniq_asns = set.union(uniq_asns, centrality.keys())
-    date_centrality[mdate] = centrality
+    date_centrality[mdate] = {asn: c**4 for asn, c in centrality.items()}
     mdate += timedelta(days=1)
 
 uniq_asns = tuple(uniq_asns)
 with open('dumpbcr.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
-    writer.writerow(["date", *uniq_asns])
+    writer.writerow(["date", *[short_asname(asn) for asn in uniq_asns]])
     for mdate, centrality in date_centrality.items():
         cdata = lambda: [centrality.get(asn, -1.0) for asn in uniq_asns]
         writer.writerow([mdate.strftime('%Y-%m-%d'), *cdata()])
