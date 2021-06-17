@@ -7,6 +7,8 @@ from mrtmap import gen_registry_info, asname, iter_path, calc_centrality, my_cen
 from datetime import date, timedelta
 import csv
 
+from traceback import print_exc
+
 from utils import showTime
 
 with showTime('load registry info'):
@@ -73,6 +75,12 @@ while mdate < end_date:
     except HTTPError as err:
         assert err.response.status_code == 404
         print(err)
+        date_centrality[mdate] = date_centrality[mdate - timedelta(days=1)]
+        mdate += timedelta(days=1)
+        continue
+    except Exception:
+        print_exc()
+        date_centrality[mdate] = date_centrality[mdate - timedelta(days=1)]
         mdate += timedelta(days=1)
         continue
     uniq_asns = set.union(uniq_asns, centrality.keys())
