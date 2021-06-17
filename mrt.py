@@ -65,10 +65,10 @@ def process_entry(entry: mrtparse.Reader) -> dict:
         print(f"unknown {subtype=}")
         return None
 
-def process_master_n(version: int) -> tuple:
-    with showTime(f'download master{version}', print_until_finished=True):
-        master_n = download_file(f'https://grc.jerryxiao.cc/master{version}_latest.mrt.bz2')
-    with showTime(f'process master{version}', print_until_finished=True):
+def process_master_n(path: str) -> tuple:
+    with showTime(f'download {path}', print_until_finished=True):
+        master_n = download_file(f'https://grc.jerryxiao.cc/{path}')
+    with showTime(f'process {path}', print_until_finished=True):
         metadata = globals()['metadata'] = dict()
         entries = list()
         for entry in mrtparse.Reader(bz2.BZ2File(master_n, 'rb')):
@@ -77,46 +77,47 @@ def process_master_n(version: int) -> tuple:
                 entries.append(processed)
     return (metadata, entries)
 
-with Pool(2) as pool:
-    processed_4, processed_6 = pool.map(process_master_n, (4, 6))
-metadata4, entries4 = processed_4
-metadata6, entries6 = processed_6
-entries = {"metadata": {"ipv4": metadata4, "ipv6": metadata6}, "ipv4": entries4, "ipv6": entries6}
+if __name__ == "__main__":
+    with Pool(2) as pool:
+        processed_4, processed_6 = pool.map(process_master_n, [f"master{version}_latest.mrt.bz2" for version in (4, 6)])
+    metadata4, entries4 = processed_4
+    metadata6, entries6 = processed_6
+    entries = {"metadata": {"ipv4": metadata4, "ipv6": metadata6}, "ipv4": entries4, "ipv6": entries6}
 
-class subprocessBzip2:
-    def __init__(self, fname: os.PathLike, *_) -> None:
-        self.fname = fname
-    def __enter__(self) -> TextIO:
-        self.f = open(self.fname, 'w')
-        self.p = subprocess.Popen(['bzip2', '--best', '--compress', '--stdout'], stdin=subprocess.PIPE, stdout=self.f, stderr=subprocess.PIPE, encoding='utf-8')
-        return self.p.stdin
-    def __exit__(self, *_) -> None:
-        try:
-            self.p.stdin.flush()
-            self.p.stdin.close()
-            self.p.wait(timeout=2)
-        except subprocess.TimeoutExpired:
-            self.p.terminate()
-            self.p.wait()
-        finally:
-            self.f.close()
-            ret = self.p.returncode
-            stderr = self.p.stderr.read()
-            if ret or stderr:
-                print(f"{ret=} {stderr=}")
+    class subprocessBzip2:
+        def __init__(self, fname: os.PathLike, *_) -> None:
+            self.fname = fname
+        def __enter__(self) -> TextIO:
+            self.f = open(self.fname, 'w')
+            self.p = subprocess.Popen(['bzip2', '--best', '--compress', '--stdout'], stdin=subprocess.PIPE, stdout=self.f, stderr=subprocess.PIPE, encoding='utf-8')
+            return self.p.stdin
+        def __exit__(self, *_) -> None:
+            try:
+                self.p.stdin.flush()
+                self.p.stdin.close()
+                self.p.wait(timeout=2)
+            except subprocess.TimeoutExpired:
+                self.p.terminate()
+                self.p.wait()
+            finally:
+                self.f.close()
+                ret = self.p.returncode
+                stderr = self.p.stderr.read()
+                if ret or stderr:
+                    print(f"{ret=} {stderr=}")
 
-with showTime('dump jsonl'):
-    if which("bzip2") is None:
-        compressor = bz2.open
-    else:
-        compressor = subprocessBzip2
-    with compressor('parsed.jsonl.bz2', 'wt') as f:
-        for entry_type, entry_val in entries.items():
-            if isinstance(entry_val, dict):
-                json.dump({"type": entry_type, **entry_val}, f, separators=(',', ':'))
-                f.write('\n')
-            else:
-                assert isinstance(entry_val, list)
-                for entry in entry_val:
-                    json.dump({"type": entry_type, **entry}, f, separators=(',', ':'))
+    with showTime('dump jsonl'):
+        if which("bzip2") is None:
+            compressor = bz2.open
+        else:
+            compressor = subprocessBzip2
+        with compressor('parsed.jsonl.bz2', 'wt') as f:
+            for entry_type, entry_val in entries.items():
+                if isinstance(entry_val, dict):
+                    json.dump({"type": entry_type, **entry_val}, f, separators=(',', ':'))
                     f.write('\n')
+                else:
+                    assert isinstance(entry_val, list)
+                    for entry in entry_val:
+                        json.dump({"type": entry_type, **entry}, f, separators=(',', ':'))
+                        f.write('\n')
