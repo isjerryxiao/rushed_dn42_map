@@ -1,7 +1,5 @@
 from utils import showTime
 
-from pyvis.network import Network
-
 from pathlib import Path
 from math import sqrt
 import json
@@ -152,6 +150,7 @@ def main():
         Path("isp.json").write_text(json.dumps(to_dump, indent=2))
 
     with showTime('gen index.html'):
+        from pyvis.network import Network
         net = Network()
         net.path = "templates/template.html"
         net.width = net.height = "100%"
