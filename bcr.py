@@ -1,6 +1,6 @@
 import bar_chart_race as bcr
 import pandas as pd
-df = pd.read_csv('dumpbcr.csv', index_col='date', parse_dates=['date'])
+df = pd.read_csv('dumpbcr.csv.interpolated', index_col='date', parse_dates=['date'])
 
 from_date = df.index[0].strftime("%Y-%m-%d")
 to_date = df.index[-1].strftime("%Y-%m-%d")
@@ -10,8 +10,10 @@ bcr.bar_chart_race(
         df=df,
         filename='out.mkv',
         steps_per_period=20,
-        period_length=500,
-        end_period_pause=500,
+        period_length=200,
+        interpolate_period=False,
+        end_period_pause=0,
+        filter_column_colors=True,
         orientation='h',
         sort='desc',
         n_bars=30,
