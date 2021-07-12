@@ -92,9 +92,10 @@ with Pool(cpu_count()) as pool:
     results = pool.map(w_get_centrality_for, dates)
     d_results = dict(zip(dates, results))
 
-    for k in d_results:
+    for k in d_results.copy():
         if d_results[k] is None:
-            d_results[k] = d_results[k - timedelta(days=1)]
+            d_results.pop(k)
+            #d_results[k] = d_results[k - timedelta(days=1)]
 for centrality in d_results.values():
     uniq_asns = set.union(uniq_asns, centrality.keys())
 
