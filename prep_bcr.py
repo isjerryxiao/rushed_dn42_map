@@ -1,5 +1,5 @@
 from mrt import process_master_n
-from multiprocessing import Pool, cpu_count
+from multiprocessing import Pool, cpu_count, Value
 from requests.exceptions import HTTPError, ConnectionError
 
 from mrtmap import gen_registry_info, asname, iter_path, calc_centrality, my_centrality, fullasmap as _fm
@@ -71,9 +71,13 @@ while mdate < end_date:
     dates.append(mdate)
     mdate += timedelta(days=1)
 
+progress_counter = Value('i', 0, lock=True)
+total_progress = (end_date - start_date).days
 def w_get_centrality_for(mdate):
     while True:
-        print(f"[{(mdate - start_date) / (end_date - start_date) * 100: 3.2f}%] {mdate.strftime('%Y-%m-%d')}")
+        print(f"[{progress_counter.value / total_progress * 100: 3.2f}%] {mdate.strftime('%Y-%m-%d')}")
+        with progress_counter.get_lock():
+            progress_counter.value += 1
         try:
             centrality = get_centrality_for(mdate)
             centrality = {asn: c**4 for asn, c in centrality.items()}
