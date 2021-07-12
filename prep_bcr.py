@@ -5,6 +5,7 @@ from requests.exceptions import HTTPError, ConnectionError
 from mrtmap import gen_registry_info, asname, iter_path, calc_centrality, my_centrality, fullasmap as _fm
 
 from datetime import date, timedelta
+from time import time, strftime, localtime
 import csv
 
 from traceback import print_exc
@@ -73,10 +74,14 @@ while mdate < end_date:
 
 progress_counter = Value('i', 0, lock=True)
 total_progress = (end_date - start_date).days
+time_started = time()
+ts_fmt = lambda t: strftime('%m-%d %H:%M:%S', localtime(t))
+print(f"start: {ts_fmt(time_started)}")
 def w_get_centrality_for(mdate):
     while True:
-        print(f"[{progress_counter.value / total_progress * 100: 3.2f}%] {mdate.strftime('%Y-%m-%d')}")
         with progress_counter.get_lock():
+            _progress = progress_counter.value / total_progress
+            print(f"[{_progress * 100: 3.2f}%] {mdate.strftime('%Y-%m-%d')} Now: {ts_fmt(time())} ETA: {ts_fmt(time_started+(time()-time_started)/_progress) if _progress > 0.01 else None}")
             progress_counter.value += 1
         try:
             centrality = get_centrality_for(mdate)
