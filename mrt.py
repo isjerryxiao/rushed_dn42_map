@@ -52,7 +52,7 @@ def process_entry(entry: mrtparse.Reader) -> dict:
                     rib_attr['extended_community'] = attr['value']
                 elif attr_type == 32:
                     rib_attr['large_community'] = attr['value']
-                elif attr_type in {1, 3, 4, 5, 6, 7, 14}:
+                elif attr_type in {1, 3, 4, 5, 6, 7, 14, 35}:
                     pass
                 else:
                     print(f"unknown {attr_type=} {attr['type'][1]}")
