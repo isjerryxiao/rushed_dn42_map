@@ -122,7 +122,7 @@ def main():
                 if entry["type"] in {"ipv4", "ipv6"}:
                     for rib in entry["rib"]:
                         try:
-                            p = [int(i) for i in rib["as_path"]]
+                            p = [int(i) for i in rib["as_sequence"]]
                         except Exception:
                             print(rib)
                             raise

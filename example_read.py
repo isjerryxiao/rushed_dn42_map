@@ -7,7 +7,8 @@ def decode(entry: dict) -> None:
     elif entry["type"] in {"ipv4", "ipv6"}:
         for rib in entry["rib"]:
             print("%s_prefix:" % entry["type"], entry["prefix"])
-            attrs = ("as_path", "community", "extended_community", "large_community")
+            path_attrs = ('as_set', 'as_sequence', 'as_confed_sequence', 'as_confed_set')
+            attrs = (*path_attrs, "community", "extended_community", "large_community")
             for attr in attrs:
                 attr_val = rib.get(attr)
                 if attr_val:

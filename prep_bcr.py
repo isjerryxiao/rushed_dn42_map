@@ -51,7 +51,7 @@ def get_centrality_for(mdate: date) -> dict:
         for entry in [*entries4, *entries6]:
             for rib in entry["rib"]:
                 try:
-                    p = [int(i) for i in rib["as_path"]]
+                    p = [int(i) for i in rib["as_sequence"]]
                 except Exception:
                     print(rib)
                     raise
