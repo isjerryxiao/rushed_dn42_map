@@ -12,9 +12,9 @@ from io import BytesIO
 import json
 from multiprocessing import Pool
 
-def download_file(url: str) -> BytesIO:
+def download_file(url: str, headers: dict = None) -> BytesIO:
     obj = BytesIO()
-    r = requests.get(url, stream=True)
+    r = requests.get(url, stream=True, headers=headers)
     r.raise_for_status()
     for chunk in r.iter_content(chunk_size=128):
         obj.write(chunk)
@@ -65,7 +65,7 @@ def process_entry(entry: mrtparse.Reader) -> dict:
 
 def process_master_n(path: str) -> tuple:
     with showTime(f'download {path}', print_until_finished=True):
-        master_n = download_file(f'https://grc.jerryxiao.cc/{path}')
+        master_n = download_file(f'https://grc.jerryxiao.cc/{path}', headers={'X-Auth-Token': os.environ.get('GRC_AUTH_TOKEN', '')})
     with showTime(f'process {path}', print_until_finished=True):
         metadata = globals()['metadata'] = dict()
         entries = list()

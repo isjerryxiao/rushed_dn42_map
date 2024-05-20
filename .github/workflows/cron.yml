@@ -15,27 +15,28 @@ jobs:
       cancel-in-progress: true
     timeout-minutes: 15
 
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           path: pages
           ref: pages
           ssh-key: ${{ secrets.KEY }}
           repository: isjerryxiao/rushed_dn42_map
 
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: 3.10
           architecture: x64
 
       - run: pip install -r req.txt
 
       - env:
           GIT_DN42_TOKEN: ${{ secrets.GIT_DN42_TOKEN }}
+          GRC_AUTH_TOKEN: ${{ secrets.GRC_AUTH_TOKEN }}
         shell: bash
         run: |
           set -ex
@@ -54,7 +55,7 @@ jobs:
           pushd pages
           git add .
           git commit --allow-empty -m "Generated at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-          git push --force origin pages
+          git push --force origin HEAD:pages
           popd
 
           # keepalive
