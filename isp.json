@@ -1,0 +1,5276 @@
+[
+  {
+    "asn": 4242423914,
+    "name": "Kioubit Network",
+    "peers": 307,
+    "centrality": 30.0,
+    "rank": 1,
+    "closeness": 0.6456953642384106,
+    "betweenness": 0.4053568546851996
+  },
+  {
+    "asn": 4242421588,
+    "name": "TECH9 CORE NETWORK",
+    "peers": 185,
+    "centrality": 26.153930820235768,
+    "rank": 2,
+    "closeness": 0.5566127497621313,
+    "betweenness": 0.17484322893872636
+  },
+  {
+    "asn": 4242422189,
+    "name": "IEDON-NET-AS",
+    "peers": 146,
+    "centrality": 24.305738996790275,
+    "rank": 3,
+    "closeness": 0.5303717135086129,
+    "betweenness": 0.08822711275506316
+  },
+  {
+    "asn": 4242421080,
+    "name": "HIGHDEF-AS",
+    "peers": 114,
+    "centrality": 23.665767007678653,
+    "rank": 4,
+    "closeness": 0.5232558139534884,
+    "betweenness": 0.06574642596674578
+  },
+  {
+    "asn": 4242422717,
+    "name": "JK-NETWORK",
+    "peers": 114,
+    "centrality": 23.577572856269967,
+    "rank": 5,
+    "closeness": 0.5237242614145031,
+    "betweenness": 0.06176061917511305
+  },
+  {
+    "asn": 4242423088,
+    "name": "SUNNET",
+    "peers": 100,
+    "centrality": 22.766716304245726,
+    "rank": 6,
+    "closeness": 0.5056179775280899,
+    "betweenness": 0.046931226012816185
+  },
+  {
+    "asn": 64719,
+    "name": "LUTOMA-AS",
+    "peers": 81,
+    "centrality": 22.578205505739017,
+    "rank": 7,
+    "closeness": 0.47990155865463496,
+    "betweenness": 0.060192831892459484
+  },
+  {
+    "asn": 4242422601,
+    "name": "BURBLE-AS",
+    "peers": 77,
+    "centrality": 22.562022573947388,
+    "rank": 8,
+    "closeness": 0.4991467576791809,
+    "betweenness": 0.04493540888113134
+  },
+  {
+    "asn": 4242421816,
+    "name": "POTAT0-AS",
+    "peers": 83,
+    "centrality": 22.254305194734755,
+    "rank": 9,
+    "closeness": 0.4920100925147183,
+    "betweenness": 0.040399166785326034
+  },
+  {
+    "asn": 4242422923,
+    "name": "AS-BANDURA-DN42",
+    "peers": 83,
+    "centrality": 22.226003744291223,
+    "rank": 10,
+    "closeness": 0.4961832061068702,
+    "betweenness": 0.03706615569962466
+  },
+  {
+    "asn": 4242423035,
+    "name": "AS-LARE-DN42",
+    "peers": 98,
+    "centrality": 22.163489458071176,
+    "rank": 11,
+    "closeness": 0.48467274233637114,
+    "betweenness": 0.04244462534599672
+  },
+  {
+    "asn": 4242423618,
+    "name": "JERRY-AS",
+    "peers": 63,
+    "centrality": 22.13754952847686,
+    "rank": 12,
+    "closeness": 0.48467274233637114,
+    "betweenness": 0.041675701299572945
+  },
+  {
+    "asn": 4201272923,
+    "name": "AS-BANDURA-NEO",
+    "peers": 81,
+    "centrality": 22.038409818872164,
+    "rank": 13,
+    "closeness": 0.4949238578680203,
+    "betweenness": 0.03293626221717055
+  },
+  {
+    "asn": 4242422464,
+    "name": "Yura",
+    "peers": 54,
+    "centrality": 21.424430186599317,
+    "rank": 14,
+    "closeness": 0.482275350370981,
+    "betweenness": 0.025373405232162617
+  },
+  {
+    "asn": 4242422547,
+    "name": "LANTIAN-AS",
+    "peers": 58,
+    "centrality": 21.32473352886653,
+    "rank": 15,
+    "closeness": 0.48267326732673266,
+    "betweenness": 0.023244191587755755
+  },
+  {
+    "asn": 76190,
+    "name": "TBSPACE",
+    "peers": 43,
+    "centrality": 21.240204902535254,
+    "rank": 16,
+    "closeness": 0.46502384737678853,
+    "betweenness": 0.029531940246395095
+  },
+  {
+    "asn": 4242421888,
+    "name": "IMLONGHAO-AS",
+    "peers": 53,
+    "centrality": 20.963802031959595,
+    "rank": 17,
+    "closeness": 0.4870940882597835,
+    "betweenness": 0.01569351609202908
+  },
+  {
+    "asn": 4201270006,
+    "name": "Jerry Network",
+    "peers": 57,
+    "centrality": 20.946277864985465,
+    "rank": 18,
+    "closeness": 0.48148148148148145,
+    "betweenness": 0.017238253116440096
+  },
+  {
+    "asn": 4242422225,
+    "name": "MARAUN-AS",
+    "peers": 47,
+    "centrality": 20.653741897354056,
+    "rank": 19,
+    "closeness": 0.45560747663551404,
+    "betweenness": 0.021788431709793905
+  },
+  {
+    "asn": 4242422092,
+    "name": "AS-P3BK4C-DN42",
+    "peers": 36,
+    "centrality": 20.401113820690597,
+    "rank": 20,
+    "closeness": 0.4676258992805755,
+    "betweenness": 0.013849095194245336
+  },
+  {
+    "asn": 4242421084,
+    "name": "FREIFUNK-DARMSTADT",
+    "peers": 6,
+    "centrality": 20.315309579758903,
+    "rank": 21,
+    "closeness": 0.42794440380395027,
+    "betweenness": 0.02704143809531838
+  },
+  {
+    "asn": 4242421817,
+    "name": "KSKB-DN42",
+    "peers": 45,
+    "centrality": 20.19078088653946,
+    "rank": 22,
+    "closeness": 0.46576433121019106,
+    "betweenness": 0.011789956031495505
+  },
+  {
+    "asn": 4242422688,
+    "name": "MIAOTONY-AS",
+    "peers": 36,
+    "centrality": 20.164303381090917,
+    "rank": 23,
+    "closeness": 0.45419254658385094,
+    "betweenness": 0.014601801004397416
+  },
+  {
+    "asn": 4242421411,
+    "name": "C4TG1RL5",
+    "peers": 34,
+    "centrality": 20.07630300356567,
+    "rank": 24,
+    "closeness": 0.45846394984326017,
+    "betweenness": 0.012316275629351062
+  },
+  {
+    "asn": 76140,
+    "name": "FEUERROT-AS",
+    "peers": 11,
+    "centrality": 20.011903791310246,
+    "rank": 25,
+    "closeness": 0.43078055964653905,
+    "betweenness": 0.02006214095263751
+  },
+  {
+    "asn": 4242420458,
+    "name": "HUAJINET",
+    "peers": 32,
+    "centrality": 19.981678815653346,
+    "rank": 26,
+    "closeness": 0.4573885848318999,
+    "betweenness": 0.011498680359904067
+  },
+  {
+    "asn": 4242420253,
+    "name": "MOE233-AS",
+    "peers": 36,
+    "centrality": 19.843065063762246,
+    "rank": 27,
+    "closeness": 0.4503464203233256,
+    "betweenness": 0.011673928735967995
+  },
+  {
+    "asn": 4242420604,
+    "name": "MOECAST-AS",
+    "peers": 30,
+    "centrality": 19.822771370930745,
+    "rank": 28,
+    "closeness": 0.45348837209302323,
+    "betweenness": 0.01069651737642827
+  },
+  {
+    "asn": 4242420566,
+    "name": "AS-CDUBS-DN42",
+    "peers": 40,
+    "centrality": 19.743720380122816,
+    "rank": 29,
+    "closeness": 0.4740680713128039,
+    "betweenness": 0.006088877797960026
+  },
+  {
+    "asn": 4242420207,
+    "name": "ROUTEDBITS",
+    "peers": 46,
+    "centrality": 19.72267715675339,
+    "rank": 30,
+    "closeness": 0.45243619489559167,
+    "betweenness": 0.009901623192649011
+  },
+  {
+    "asn": 4242421592,
+    "name": "AS of CAMELUSFERUS",
+    "peers": 37,
+    "centrality": 19.590306556588533,
+    "rank": 31,
+    "closeness": 0.47101449275362317,
+    "betweenness": 0.0055086022225823515
+  },
+  {
+    "asn": 4242421488,
+    "name": "KOALA-AS",
+    "peers": 18,
+    "centrality": 19.442973006295396,
+    "rank": 32,
+    "closeness": 0.450693374422188,
+    "betweenness": 0.007694552609213696
+  },
+  {
+    "asn": 4242420780,
+    "name": "UFFSALOT-AS",
+    "peers": 31,
+    "centrality": 19.302312285719662,
+    "rank": 33,
+    "closeness": 0.4672523961661342,
+    "betweenness": 0.004296658710830623
+  },
+  {
+    "asn": 4242421123,
+    "name": "NEO-AS",
+    "peers": 25,
+    "centrality": 19.261557034149945,
+    "rank": 34,
+    "closeness": 0.45631825273010923,
+    "betweenness": 0.005463373418137635
+  },
+  {
+    "asn": 4242420565,
+    "name": "E1MO-AS",
+    "peers": 18,
+    "centrality": 19.102853744572187,
+    "rank": 35,
+    "closeness": 0.4538401861908456,
+    "betweenness": 0.004823601977992448
+  },
+  {
+    "asn": 4242422575,
+    "name": "ANDROW-AS",
+    "peers": 25,
+    "centrality": 19.09449820968075,
+    "rank": 36,
+    "closeness": 0.4475899005355777,
+    "betweenness": 0.005619043185587452
+  },
+  {
+    "asn": 4242420803,
+    "name": "BILL-0803-ASN",
+    "peers": 13,
+    "centrality": 19.08684103304028,
+    "rank": 37,
+    "closeness": 0.437219730941704,
+    "betweenness": 0.007199682269521516
+  },
+  {
+    "asn": 4242422002,
+    "name": "AS-9PFS-DN42",
+    "peers": 20,
+    "centrality": 18.923440137607024,
+    "rank": 38,
+    "closeness": 0.4503464203233256,
+    "betweenness": 0.004249829727662478
+  },
+  {
+    "asn": 4242422308,
+    "name": "MIRSAL-AS",
+    "peers": 15,
+    "centrality": 18.838259242464552,
+    "rank": 39,
+    "closeness": 0.4452054794520548,
+    "betweenness": 0.0043970590539760225
+  },
+  {
+    "asn": 4242421732,
+    "name": "AS-BARAGOON-DN42-TRANSIT",
+    "peers": 20,
+    "centrality": 18.79905550256575,
+    "rank": 40,
+    "closeness": 0.4448669201520912,
+    "betweenness": 0.004226337026752894
+  },
+  {
+    "asn": 4242421331,
+    "name": "NIA-AS",
+    "peers": 20,
+    "centrality": 18.767512048505434,
+    "rank": 41,
+    "closeness": 0.4276315789473684,
+    "betweenness": 0.006374454238511947
+  },
+  {
+    "asn": 4242421955,
+    "name": "NOP",
+    "peers": 7,
+    "centrality": 18.730330503876086,
+    "rank": 42,
+    "closeness": 0.4229934924078091,
+    "betweenness": 0.00685059393187151
+  },
+  {
+    "asn": 4242420358,
+    "name": "KEMONOTELECOM",
+    "peers": 26,
+    "centrality": 18.641718893296133,
+    "rank": 43,
+    "closeness": 0.46465448768864176,
+    "betweenness": 0.0018664887755239252
+  },
+  {
+    "asn": 4242420247,
+    "name": "BAOSHUO-AS-DN42",
+    "peers": 10,
+    "centrality": 18.60956411166849,
+    "rank": 44,
+    "closeness": 0.4172610556348074,
+    "betweenness": 0.006886567016929159
+  },
+  {
+    "asn": 4242421288,
+    "name": "NICHONET-42",
+    "peers": 26,
+    "centrality": 18.596925874216137,
+    "rank": 45,
+    "closeness": 0.46026750590086546,
+    "betweenness": 0.0020177479980187625
+  },
+  {
+    "asn": 4242422980,
+    "name": "YUUTAW-AS",
+    "peers": 19,
+    "centrality": 18.55913413482436,
+    "rank": 46,
+    "closeness": 0.3936742934051144,
+    "betweenness": 0.011190734979499418
+  },
+  {
+    "asn": 4242422246,
+    "name": "ventilaar-net",
+    "peers": 22,
+    "centrality": 18.375099003654732,
+    "rank": 47,
+    "closeness": 0.4226878612716763,
+    "betweenness": 0.004561614151597944
+  },
+  {
+    "asn": 4242420246,
+    "name": "XESXEN-AS",
+    "peers": 7,
+    "centrality": 18.281576945797397,
+    "rank": 48,
+    "closeness": 0.42116630669546434,
+    "betweenness": 0.00423352716391599
+  },
+  {
+    "asn": 4242420119,
+    "name": "JRB0001",
+    "peers": 13,
+    "centrality": 18.213255082772385,
+    "rank": 49,
+    "closeness": 0.43078055964653905,
+    "betweenness": 0.0029389200456338646
+  },
+  {
+    "asn": 4201271111,
+    "name": "KSKB-NEO",
+    "peers": 25,
+    "centrality": 18.175239688836214,
+    "rank": 50,
+    "closeness": 0.45278637770897834,
+    "betweenness": 0.001340990610907604
+  },
+  {
+    "asn": 4242421197,
+    "name": "AS-SCOOPTA-DN42",
+    "peers": 10,
+    "centrality": 18.14961505720189,
+    "rank": 51,
+    "closeness": 0.4223826714801444,
+    "betweenness": 0.0034539176822969892
+  },
+  {
+    "asn": 4242421032,
+    "name": "RadioNoise",
+    "peers": 8,
+    "centrality": 18.13337526453051,
+    "rank": 52,
+    "closeness": 0.4263848396501458,
+    "betweenness": 0.0030053365457793618
+  },
+  {
+    "asn": 4242421516,
+    "name": "w1kl4s network",
+    "peers": 9,
+    "centrality": 18.117619859391873,
+    "rank": 53,
+    "closeness": 0.41607396870554764,
+    "betweenness": 0.003962304789787393
+  },
+  {
+    "asn": 4242421722,
+    "name": "Tchekda",
+    "peers": 22,
+    "centrality": 18.11726828050892,
+    "rank": 54,
+    "closeness": 0.44554455445544555,
+    "betweenness": 0.0015804523329396337
+  },
+  {
+    "asn": 4242420585,
+    "name": "ATOLM-AS",
+    "peers": 19,
+    "centrality": 18.10081832443226,
+    "rank": 55,
+    "closeness": 0.4391891891891892,
+    "betweenness": 0.0019144272419821427
+  },
+  {
+    "asn": 4242421131,
+    "name": "NETRVIN-AS",
+    "peers": 16,
+    "centrality": 18.077297123726062,
+    "rank": 56,
+    "closeness": 0.4475899005355777,
+    "betweenness": 0.0013767138287474746
+  },
+  {
+    "asn": 4242423947,
+    "name": "SERNET-DN42",
+    "peers": 18,
+    "centrality": 18.061119670023103,
+    "rank": 57,
+    "closeness": 0.45631825273010923,
+    "betweenness": 0.0009614146546007037
+  },
+  {
+    "asn": 4242423767,
+    "name": "ORG-NLL-AS",
+    "peers": 4,
+    "centrality": 18.02974470701639,
+    "rank": 58,
+    "closeness": 0.4172610556348074,
+    "betweenness": 0.003418803418803419
+  },
+  {
+    "asn": 4242422705,
+    "name": "PIGGY-AS",
+    "peers": 19,
+    "centrality": 17.89735395155206,
+    "rank": 59,
+    "closeness": 0.4320531757754801,
+    "betweenness": 0.0017800973446692645
+  },
+  {
+    "asn": 4242423372,
+    "name": "LUKASBECKERIT-AS",
+    "peers": 18,
+    "centrality": 17.861313088937113,
+    "rank": 60,
+    "closeness": 0.4548989113530327,
+    "betweenness": 0.0006994109052857482
+  },
+  {
+    "asn": 4242422633,
+    "name": "EASTBOUND-AS",
+    "peers": 18,
+    "centrality": 17.809679295318375,
+    "rank": 61,
+    "closeness": 0.43656716417910446,
+    "betweenness": 0.0013176577609130952
+  },
+  {
+    "asn": 4242421686,
+    "name": "CMCC-AS",
+    "peers": 18,
+    "centrality": 17.796035197604404,
+    "rank": 62,
+    "closeness": 0.450693374422188,
+    "betweenness": 0.0007369116797178629
+  },
+  {
+    "asn": 4242420129,
+    "name": "PIVIPI-NET",
+    "peers": 21,
+    "centrality": 17.779845311825703,
+    "rank": 63,
+    "closeness": 0.4538401861908456,
+    "betweenness": 0.0006227639652158132
+  },
+  {
+    "asn": 4242421525,
+    "name": "AleMal-Network",
+    "peers": 12,
+    "centrality": 17.739524734749416,
+    "rank": 64,
+    "closeness": 0.439519158527423,
+    "betweenness": 0.0010444108019883284
+  },
+  {
+    "asn": 4242423703,
+    "name": "FMEPNET-AS",
+    "peers": 13,
+    "centrality": 17.735507608269216,
+    "rank": 65,
+    "closeness": 0.43754674644727,
+    "betweenness": 0.0011189421370929721
+  },
+  {
+    "asn": 4242421836,
+    "name": "AS-NRB-DN42",
+    "peers": 6,
+    "centrality": 17.698063876211975,
+    "rank": 66,
+    "closeness": 0.375,
+    "betweenness": 0.006991295379939952
+  },
+  {
+    "asn": 64737,
+    "name": "XUU-AS",
+    "peers": 6,
+    "centrality": 17.688435090972746,
+    "rank": 67,
+    "closeness": 0.375,
+    "betweenness": 0.006917287519678457
+  },
+  {
+    "asn": 4242422306,
+    "name": "PMENKE-AS",
+    "peers": 3,
+    "centrality": 17.67890437375832,
+    "rank": 68,
+    "closeness": 0.4012345679012346,
+    "betweenness": 0.003418803418803419
+  },
+  {
+    "asn": 4242420590,
+    "name": "RAVI-AS-DN42",
+    "peers": 12,
+    "centrality": 17.64203457073552,
+    "rank": 69,
+    "closeness": 0.3971486761710794,
+    "betweenness": 0.0036623008850705384
+  },
+  {
+    "asn": 4242423085,
+    "name": "fiberose",
+    "peers": 3,
+    "centrality": 17.619071006296785,
+    "rank": 70,
+    "closeness": 0.39850136239782014,
+    "betweenness": 0.0034188034188034184
+  },
+  {
+    "asn": 4242422051,
+    "name": "AS-ASYMPTOTE-DN42",
+    "peers": 6,
+    "centrality": 17.589982498930215,
+    "rank": 71,
+    "closeness": 0.3968792401628223,
+    "betweenness": 0.003447874665197741
+  },
+  {
+    "asn": 4242420123,
+    "name": "GRMML-AS",
+    "peers": 9,
+    "centrality": 17.563571301269306,
+    "rank": 72,
+    "closeness": 0.3629032258064516,
+    "betweenness": 0.008052519340659434
+  },
+  {
+    "asn": 4242422032,
+    "name": "LapisNetwork",
+    "peers": 15,
+    "centrality": 17.51884473189468,
+    "rank": 73,
+    "closeness": 0.43014705882352944,
+    "betweenness": 0.0010159417198488975
+  },
+  {
+    "asn": 4242422016,
+    "name": "SIDEREAL-AS",
+    "peers": 17,
+    "centrality": 17.513331887657653,
+    "rank": 74,
+    "closeness": 0.45243619489559167,
+    "betweenness": 0.0003750126058010607
+  },
+  {
+    "asn": 4242421855,
+    "name": "IMMIBIS",
+    "peers": 11,
+    "centrality": 17.465519324295403,
+    "rank": 75,
+    "closeness": 0.39,
+    "betweenness": 0.003568090172191307
+  },
+  {
+    "asn": 65038,
+    "name": "ICVPN-DARMSTADT",
+    "peers": 8,
+    "centrality": 17.39899901256402,
+    "rank": 76,
+    "closeness": 0.30201342281879195,
+    "betweenness": 0.023802833391874487
+  },
+  {
+    "asn": 4242423745,
+    "name": "MUSKA-AS",
+    "peers": 9,
+    "centrality": 17.319448372333596,
+    "rank": 77,
+    "closeness": 0.4184549356223176,
+    "betweenness": 0.0011226273213773242
+  },
+  {
+    "asn": 4242423668,
+    "name": "AS-BASTELNET-DN42",
+    "peers": 12,
+    "centrality": 17.28166969577083,
+    "rank": 78,
+    "closeness": 0.42207792207792205,
+    "betweenness": 0.0009103843329800325
+  },
+  {
+    "asn": 4242422458,
+    "name": "PIGEONHOLE-AS",
+    "peers": 13,
+    "centrality": 17.276939911492263,
+    "rank": 79,
+    "closeness": 0.44793261868300155,
+    "betweenness": 0.0002698094694213932
+  },
+  {
+    "asn": 4242422904,
+    "name": "DOXZ-AS",
+    "peers": 10,
+    "centrality": 17.20589270811751,
+    "rank": 80,
+    "closeness": 0.437219730941704,
+    "betweenness": 0.00039758271367755575
+  },
+  {
+    "asn": 4242421966,
+    "name": "KEUIN-AS",
+    "peers": 11,
+    "centrality": 17.134461016769123,
+    "rank": 81,
+    "closeness": 0.4355919583023083,
+    "betweenness": 0.00036637618680712453
+  },
+  {
+    "asn": 4242422561,
+    "name": "VINISHOR-AS",
+    "peers": 6,
+    "centrality": 17.07535968508679,
+    "rank": 82,
+    "closeness": 0.4088050314465409,
+    "betweenness": 0.0010597112320588238
+  },
+  {
+    "asn": 4242422596,
+    "name": "Chaox-Network",
+    "peers": 14,
+    "centrality": 17.0559163153241,
+    "rank": 83,
+    "closeness": 0.4317343173431734,
+    "betweenness": 0.00037139185196423884
+  },
+  {
+    "asn": 4242422558,
+    "name": "COLBY-AS",
+    "peers": 11,
+    "centrality": 17.04897903363137,
+    "rank": 84,
+    "closeness": 0.42391304347826086,
+    "betweenness": 0.0005328149745811235
+  },
+  {
+    "asn": 4242422439,
+    "name": "AS for DannyAAM",
+    "peers": 7,
+    "centrality": 17.0482577683124,
+    "rank": 85,
+    "closeness": 0.43078055964653905,
+    "betweenness": 0.0003828097528230989
+  },
+  {
+    "asn": 4242421280,
+    "name": "AS for margau's Demo-Network",
+    "peers": 4,
+    "centrality": 17.036884216414265,
+    "rank": 86,
+    "closeness": 0.36312849162011174,
+    "betweenness": 0.004372017468846521
+  },
+  {
+    "asn": 4242421220,
+    "name": "litschi's AS",
+    "peers": 7,
+    "centrality": 17.016670501843215,
+    "rank": 87,
+    "closeness": 0.42731921110299487,
+    "betweenness": 0.0004228896734339056
+  },
+  {
+    "asn": 4242420620,
+    "name": "Elrond-AS",
+    "peers": 7,
+    "centrality": 17.012381470301424,
+    "rank": 88,
+    "closeness": 0.42452830188679247,
+    "betweenness": 0.0004789468357680707
+  },
+  {
+    "asn": 4242421322,
+    "name": "XICE-AS",
+    "peers": 9,
+    "centrality": 16.946634028283267,
+    "rank": 89,
+    "closeness": 0.39741847826086957,
+    "betweenness": 0.0013043968626238736
+  },
+  {
+    "asn": 4242422314,
+    "name": "KITAUJI-AS",
+    "peers": 11,
+    "centrality": 16.940966729556457,
+    "rank": 90,
+    "closeness": 0.419054441260745,
+    "betweenness": 0.0005309690759377217
+  },
+  {
+    "asn": 4242420977,
+    "name": "Moerail Network",
+    "peers": 8,
+    "centrality": 16.913334876323695,
+    "rank": 91,
+    "closeness": 0.4254545454545455,
+    "betweenness": 0.00036704842582943316
+  },
+  {
+    "asn": 4242422114,
+    "name": "AS-BAO-DN42",
+    "peers": 12,
+    "centrality": 16.895332639060108,
+    "rank": 92,
+    "closeness": 0.43656716417910446,
+    "betweenness": 0.00019104682555226148
+  },
+  {
+    "asn": 64674,
+    "name": "STEPHANJ-AS",
+    "peers": 4,
+    "centrality": 16.869855877571226,
+    "rank": 93,
+    "closeness": 0.3640323584318606,
+    "betweenness": 0.0034430346579235635
+  },
+  {
+    "asn": 4242420705,
+    "name": "VR18-AS",
+    "peers": 11,
+    "centrality": 16.862738794671042,
+    "rank": 94,
+    "closeness": 0.4418429003021148,
+    "betweenness": 0.0001250644552088248
+  },
+  {
+    "asn": 4242422574,
+    "name": "clerie's AS",
+    "peers": 7,
+    "centrality": 16.861190030337944,
+    "rank": 95,
+    "closeness": 0.3377598152424942,
+    "betweenness": 0.006825804667777873
+  },
+  {
+    "asn": 4242423309,
+    "name": "NAIVETOMCAT-AS",
+    "peers": 10,
+    "centrality": 16.826889918879676,
+    "rank": 96,
+    "closeness": 0.39156626506024095,
+    "betweenness": 0.001322825942312844
+  },
+  {
+    "asn": 4242423665,
+    "name": "AS-RHYSPERRY111-DN42",
+    "peers": 9,
+    "centrality": 16.824166833088267,
+    "rank": 97,
+    "closeness": 0.44051204819277107,
+    "betweenness": 0.0001215399054922415
+  },
+  {
+    "asn": 4242420101,
+    "name": "CCCDA-AS",
+    "peers": 15,
+    "centrality": 16.81687701868855,
+    "rank": 98,
+    "closeness": 0.3667711598746082,
+    "betweenness": 0.0029585873155923885
+  },
+  {
+    "asn": 4242421146,
+    "name": "AS-AMC-DN42",
+    "peers": 11,
+    "centrality": 16.783447556795984,
+    "rank": 99,
+    "closeness": 0.437219730941704,
+    "betweenness": 0.00013354425347595505
+  },
+  {
+    "asn": 4242420398,
+    "name": "Boletus",
+    "peers": 9,
+    "centrality": 16.778268977484718,
+    "rank": 100,
+    "closeness": 0.4232995658465991,
+    "betweenness": 0.0002981250984317966
+  },
+  {
+    "asn": 4242423513,
+    "name": "LFNET",
+    "peers": 7,
+    "centrality": 16.76585001495723,
+    "rank": 101,
+    "closeness": 0.33678756476683935,
+    "betweenness": 0.006281576038812398
+  },
+  {
+    "asn": 4242420225,
+    "name": "HEXXNET-AS",
+    "peers": 10,
+    "centrality": 16.754055785242098,
+    "rank": 102,
+    "closeness": 0.4349442379182156,
+    "betweenness": 0.0001418273319832627
+  },
+  {
+    "asn": 4242423478,
+    "name": "AS-TOMK-DN42",
+    "peers": 10,
+    "centrality": 16.746918944038654,
+    "rank": 103,
+    "closeness": 0.41785714285714287,
+    "betweenness": 0.0003669645884109557
+  },
+  {
+    "asn": 4242420549,
+    "name": "BBPGQM-AS",
+    "peers": 12,
+    "centrality": 16.734964976928193,
+    "rank": 104,
+    "closeness": 0.42920029347028615,
+    "betweenness": 0.0001915153729086882
+  },
+  {
+    "asn": 210074,
+    "name": "B-DINGEMANS-PRIVATE",
+    "peers": 7,
+    "centrality": 16.721294763040376,
+    "rank": 105,
+    "closeness": 0.41607396870554764,
+    "betweenness": 0.0003784463280168603
+  },
+  {
+    "asn": 4242420392,
+    "name": "AS-HACKCLUB-DN42",
+    "peers": 10,
+    "centrality": 16.665948314337342,
+    "rank": 106,
+    "closeness": 0.41696364932287955,
+    "betweenness": 0.0003176921540054159
+  },
+  {
+    "asn": 4242422034,
+    "name": "WYF-AS-DN42",
+    "peers": 8,
+    "centrality": 16.65906509696486,
+    "rank": 107,
+    "closeness": 0.42794440380395027,
+    "betweenness": 0.00016757486619622022
+  },
+  {
+    "asn": 4242422855,
+    "name": "AS for Nichi Networks",
+    "peers": 3,
+    "centrality": 16.634403352999975,
+    "rank": 108,
+    "closeness": 0.32736429770565195,
+    "betweenness": 0.006831752722163681
+  },
+  {
+    "asn": 4242420517,
+    "name": "KENNHUANG-AS",
+    "peers": 8,
+    "centrality": 16.61705100706101,
+    "rank": 109,
+    "closeness": 0.4326923076923077,
+    "betweenness": 0.00010879875418378698
+  },
+  {
+    "asn": 4242422078,
+    "name": "CUBERCSL-AS",
+    "peers": 8,
+    "centrality": 16.605114422038067,
+    "rank": 110,
+    "closeness": 0.40344827586206894,
+    "betweenness": 0.0005374588283906075
+  },
+  {
+    "asn": 4242421815,
+    "name": "RIVENSBANE",
+    "peers": 12,
+    "centrality": 16.593064706674845,
+    "rank": 111,
+    "closeness": 0.43301258327165065,
+    "betweenness": 9.863609896710767e-05
+  },
+  {
+    "asn": 4242422237,
+    "name": "MUNSTERNET-AS",
+    "peers": 10,
+    "centrality": 16.591515399443676,
+    "rank": 112,
+    "closeness": 0.3505092869982025,
+    "betweenness": 0.0035240220558956188
+  },
+  {
+    "asn": 200201,
+    "name": "JOT23-GLOBAL",
+    "peers": 3,
+    "centrality": 16.574439903187518,
+    "rank": 113,
+    "closeness": 0.4111033028812368,
+    "betweenness": 0.0003465626692942706
+  },
+  {
+    "asn": 4242423011,
+    "name": "MORAXYC-AS",
+    "peers": 9,
+    "centrality": 16.573416413907296,
+    "rank": 114,
+    "closeness": 0.437874251497006,
+    "betweenness": 6.444380119144842e-05
+  },
+  {
+    "asn": 4242423770,
+    "name": "SERVERMADE-AS",
+    "peers": 5,
+    "centrality": 16.53613127532109,
+    "rank": 115,
+    "closeness": 0.4111033028812368,
+    "betweenness": 0.0003165343321056448
+  },
+  {
+    "asn": 4242423632,
+    "name": "AS-CHUANGZHU-DN42",
+    "peers": 10,
+    "centrality": 16.505453370619257,
+    "rank": 116,
+    "closeness": 0.4368932038834951,
+    "betweenness": 5.4416702492404974e-05
+  },
+  {
+    "asn": 64699,
+    "name": "C3D2HQ-AS",
+    "peers": 4,
+    "centrality": 16.482942186771822,
+    "rank": 117,
+    "closeness": 0.3029518384256862,
+    "betweenness": 0.010232993794637631
+  },
+  {
+    "asn": 4242422786,
+    "name": "UVOK-AS",
+    "peers": 7,
+    "centrality": 16.469634261920618,
+    "rank": 118,
+    "closeness": 0.419054441260745,
+    "betweenness": 0.0001700240731634263
+  },
+  {
+    "asn": 4242421366,
+    "name": "DICTXIONG-AS",
+    "peers": 6,
+    "centrality": 16.464235265459088,
+    "rank": 119,
+    "closeness": 0.42116630669546434,
+    "betweenness": 0.00014678400032210165
+  },
+  {
+    "asn": 4242420389,
+    "name": "AS-FIBERPLZ-DN42",
+    "peers": 9,
+    "centrality": 16.460688340053146,
+    "rank": 120,
+    "closeness": 0.4349442379182156,
+    "betweenness": 5.3993353275045166e-05
+  },
+  {
+    "asn": 4242421231,
+    "name": "CAESIA",
+    "peers": 4,
+    "centrality": 16.42799327360452,
+    "rank": 121,
+    "closeness": 0.4026152787336545,
+    "betweenness": 0.00037959636613679114
+  },
+  {
+    "asn": 4242422532,
+    "name": "22DECEMBRE",
+    "peers": 4,
+    "centrality": 16.415562884972175,
+    "rank": 122,
+    "closeness": 0.39580514208389717,
+    "betweenness": 0.0005128444084869745
+  },
+  {
+    "asn": 4242421607,
+    "name": "ATNET-AS4242421607",
+    "peers": 4,
+    "centrality": 16.413131126148315,
+    "rank": 123,
+    "closeness": 0.4166666666666667,
+    "betweenness": 0.00016802195554429042
+  },
+  {
+    "asn": 4242422902,
+    "name": "AS-SLODDERVOS-DN42",
+    "peers": 6,
+    "centrality": 16.41173113409414,
+    "rank": 124,
+    "closeness": 0.42951541850220265,
+    "betweenness": 6.947449502600484e-05
+  },
+  {
+    "asn": 4242422086,
+    "name": "MAIN-AS",
+    "peers": 7,
+    "centrality": 16.408223888744935,
+    "rank": 125,
+    "closeness": 0.42483660130718953,
+    "betweenness": 9.67985165832965e-05
+  },
+  {
+    "asn": 4242423491,
+    "name": "APRILDEF-AS",
+    "peers": 6,
+    "centrality": 16.39241444708422,
+    "rank": 126,
+    "closeness": 0.4232995658465991,
+    "betweenness": 0.00010247539240487015
+  },
+  {
+    "asn": 65043,
+    "name": "ICVPN-DREILAENDERECK",
+    "peers": 5,
+    "centrality": 16.371093642135357,
+    "rank": 127,
+    "closeness": 0.3379549393414211,
+    "betweenness": 0.0037819860614220126
+  },
+  {
+    "asn": 4242420807,
+    "name": "RHM-AS",
+    "peers": 6,
+    "centrality": 16.351780254905048,
+    "rank": 128,
+    "closeness": 0.4276315789473684,
+    "betweenness": 6.504021591096973e-05
+  },
+  {
+    "asn": 4242423077,
+    "name": "Ferrets_Network",
+    "peers": 9,
+    "centrality": 16.299917127167475,
+    "rank": 129,
+    "closeness": 0.43301258327165065,
+    "betweenness": 3.383247355944097e-05
+  },
+  {
+    "asn": 4242422273,
+    "name": "AS-HRNZNET-DN42",
+    "peers": 6,
+    "centrality": 16.29896500192163,
+    "rank": 130,
+    "closeness": 0.4134275618374558,
+    "betweenness": 0.00014855437140319242
+  },
+  {
+    "asn": 4242423152,
+    "name": "TATK-NETWORK",
+    "peers": 10,
+    "centrality": 16.292228728662806,
+    "rank": 131,
+    "closeness": 0.4298310066127847,
+    "betweenness": 4.3495678364936696e-05
+  },
+  {
+    "asn": 4242422800,
+    "name": "MAGLAB-AS",
+    "peers": 5,
+    "centrality": 16.28887512184466,
+    "rank": 132,
+    "closeness": 0.33466819221967964,
+    "betweenness": 0.00373225613052528
+  },
+  {
+    "asn": 4242421181,
+    "name": "AS from ne-vlezay80",
+    "peers": 5,
+    "centrality": 16.28372813562614,
+    "rank": 133,
+    "closeness": 0.42607428987618357,
+    "betweenness": 5.7538128301189026e-05
+  },
+  {
+    "asn": 4242421780,
+    "name": "AS-SFSARFE-DN42",
+    "peers": 8,
+    "centrality": 16.275400956769523,
+    "rank": 134,
+    "closeness": 0.4349442379182156,
+    "betweenness": 2.5320355234741174e-05
+  },
+  {
+    "asn": 4242420708,
+    "name": "CB-AS",
+    "peers": 6,
+    "centrality": 16.262404347510383,
+    "rank": 135,
+    "closeness": 0.42731921110299487,
+    "betweenness": 4.7959132754578604e-05
+  },
+  {
+    "asn": 4242422413,
+    "name": "SCIDOGNET-AS",
+    "peers": 7,
+    "centrality": 16.255031398691116,
+    "rank": 136,
+    "closeness": 0.4276315789473684,
+    "betweenness": 4.5398109741620056e-05
+  },
+  {
+    "asn": 4242420434,
+    "name": "CatgirlBiz",
+    "peers": 6,
+    "centrality": 16.235922827461664,
+    "rank": 137,
+    "closeness": 0.425764192139738,
+    "betweenness": 4.936487076491555e-05
+  },
+  {
+    "asn": 4242421660,
+    "name": "SUNSHINE-AS",
+    "peers": 8,
+    "centrality": 16.22656272482284,
+    "rank": 138,
+    "closeness": 0.43237250554323725,
+    "betweenness": 2.6181031400915334e-05
+  },
+  {
+    "asn": 4242422375,
+    "name": "KUTOUAKIRA-AS",
+    "peers": 6,
+    "centrality": 16.215115063098494,
+    "rank": 139,
+    "closeness": 0.4242204496011603,
+    "betweenness": 5.1851596640984796e-05
+  },
+  {
+    "asn": 4242420864,
+    "name": "AS-LinkSecond",
+    "peers": 10,
+    "centrality": 16.208834899042,
+    "rank": 140,
+    "closeness": 0.4023383768913342,
+    "betweenness": 0.00022576857838194206
+  },
+  {
+    "asn": 4242420140,
+    "name": "AS for Yangfl Network",
+    "peers": 4,
+    "centrality": 16.20078468677067,
+    "rank": 141,
+    "closeness": 0.33371363377067886,
+    "betweenness": 0.003418803418803419
+  },
+  {
+    "asn": 64633,
+    "name": "HSBXL-AS",
+    "peers": 2,
+    "centrality": 16.196619681835458,
+    "rank": 142,
+    "closeness": 0.33352337514253133,
+    "betweenness": 0.00341880341880342
+  },
+  {
+    "asn": 4242422100,
+    "name": "FLOKLI-AS",
+    "peers": 2,
+    "centrality": 16.196619681835458,
+    "rank": 143,
+    "closeness": 0.33352337514253133,
+    "betweenness": 0.00341880341880342
+  },
+  {
+    "asn": 4242423626,
+    "name": "SPACE24-AS",
+    "peers": 4,
+    "centrality": 16.188652990313177,
+    "rank": 144,
+    "closeness": 0.4232995658465991,
+    "betweenness": 5.0633285318179843e-05
+  },
+  {
+    "asn": 4242420906,
+    "name": "PASTEN-AS",
+    "peers": 4,
+    "centrality": 16.188652990313177,
+    "rank": 145,
+    "closeness": 0.4232995658465991,
+    "betweenness": 5.0633285318179843e-05
+  },
+  {
+    "asn": 4242423226,
+    "name": "CYNPPRCLP-AS",
+    "peers": 4,
+    "centrality": 16.188652990313177,
+    "rank": 146,
+    "closeness": 0.4232995658465991,
+    "betweenness": 5.0633285318179843e-05
+  },
+  {
+    "asn": 4242421260,
+    "name": "CMD-NETWORK",
+    "peers": 7,
+    "centrality": 16.183846824891784,
+    "rank": 147,
+    "closeness": 0.4336545589325426,
+    "betweenness": 1.8841209707825007e-05
+  },
+  {
+    "asn": 4242421716,
+    "name": "404NET-AS",
+    "peers": 7,
+    "centrality": 16.14750483514599,
+    "rank": 148,
+    "closeness": 0.4236060825488776,
+    "betweenness": 4.2068701294434245e-05
+  },
+  {
+    "asn": 4242422354,
+    "name": "AS-ZDONG-DN42",
+    "peers": 5,
+    "centrality": 16.13281528579913,
+    "rank": 149,
+    "closeness": 0.4223826714801444,
+    "betweenness": 4.4121286334157875e-05
+  },
+  {
+    "asn": 4242420224,
+    "name": "AS-BE0BA-DN42",
+    "peers": 7,
+    "centrality": 16.12223512828301,
+    "rank": 150,
+    "closeness": 0.42700729927007297,
+    "betweenness": 2.7748101504859157e-05
+  },
+  {
+    "asn": 4242421009,
+    "name": "KLARA-AS",
+    "peers": 3,
+    "centrality": 16.11508298973124,
+    "rank": 151,
+    "closeness": 0.3998632946001367,
+    "betweenness": 0.00020339117506016396
+  },
+  {
+    "asn": 4242421252,
+    "name": "F333-AS-DN42",
+    "peers": 4,
+    "centrality": 16.073642151718182,
+    "rank": 152,
+    "closeness": 0.4236060825488776,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 4242423415,
+    "name": "AERIS-AS",
+    "peers": 4,
+    "centrality": 16.06922703224978,
+    "rank": 153,
+    "closeness": 0.4145995747696669,
+    "betweenness": 6.567451142020372e-05
+  },
+  {
+    "asn": 4242420893,
+    "name": "MAIYUN-DN42",
+    "peers": 9,
+    "centrality": 16.06634075821758,
+    "rank": 154,
+    "closeness": 0.4214697406340058,
+    "betweenness": 3.6620594730009535e-05
+  },
+  {
+    "asn": 4242421271,
+    "name": "Unnamed aut-num AS4242421271",
+    "peers": 5,
+    "centrality": 16.052793059553267,
+    "rank": 155,
+    "closeness": 0.3235619469026549,
+    "betweenness": 0.0037663391030400973
+  },
+  {
+    "asn": 4242422900,
+    "name": "AS-FABS-DN42",
+    "peers": 5,
+    "centrality": 16.049285815525103,
+    "rank": 156,
+    "closeness": 0.41965566714490676,
+    "betweenness": 4.014539110639352e-05
+  },
+  {
+    "asn": 4242420834,
+    "name": "AS-BIOMANN-DN42",
+    "peers": 4,
+    "centrality": 16.046791866285798,
+    "rank": 157,
+    "closeness": 0.41696364932287955,
+    "betweenness": 5.0030644553660317e-05
+  },
+  {
+    "asn": 4242420625,
+    "name": "ARCENOTAS-AS",
+    "peers": 10,
+    "centrality": 16.041719058135264,
+    "rank": 158,
+    "closeness": 0.4236060825488776,
+    "betweenness": 2.701610446643433e-05
+  },
+  {
+    "asn": 4242422914,
+    "name": "jsanders AS",
+    "peers": 7,
+    "centrality": 16.033249735368855,
+    "rank": 159,
+    "closeness": 0.40484429065743943,
+    "betweenness": 0.00011784965223935332
+  },
+  {
+    "asn": 4242423096,
+    "name": "3096LabNetwork",
+    "peers": 6,
+    "centrality": 16.03009198595992,
+    "rank": 160,
+    "closeness": 0.4254545454545455,
+    "betweenness": 2.130418139856849e-05
+  },
+  {
+    "asn": 4242420110,
+    "name": "3-Stadt AS",
+    "peers": 4,
+    "centrality": 16.02687489230197,
+    "rank": 161,
+    "closeness": 0.4214697406340058,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 4242420157,
+    "name": "IBJ-AS",
+    "peers": 10,
+    "centrality": 16.005190108580237,
+    "rank": 162,
+    "closeness": 0.4009595613433859,
+    "betweenness": 0.00013980669110877462
+  },
+  {
+    "asn": 4242421050,
+    "name": "NAPSTERBATER-AS",
+    "peers": 7,
+    "centrality": 15.996683686419974,
+    "rank": 163,
+    "closeness": 0.42452830188679247,
+    "betweenness": 2.001999725066748e-05
+  },
+  {
+    "asn": 4242421819,
+    "name": "LERNET",
+    "peers": 5,
+    "centrality": 15.950462430593802,
+    "rank": 164,
+    "closeness": 0.4229934924078091,
+    "betweenness": 1.8841209707825007e-05
+  },
+  {
+    "asn": 4242423642,
+    "name": "AS for SEEK42 Network",
+    "peers": 3,
+    "centrality": 15.947790502195279,
+    "rank": 165,
+    "closeness": 0.41785714285714287,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 4242420280,
+    "name": "never-afk",
+    "peers": 3,
+    "centrality": 15.947790502195279,
+    "rank": 166,
+    "closeness": 0.41785714285714287,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 4242422280,
+    "name": "EV0",
+    "peers": 3,
+    "centrality": 15.947790502195279,
+    "rank": 167,
+    "closeness": 0.41785714285714287,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 4242423511,
+    "name": "SECSHELL-AS",
+    "peers": 4,
+    "centrality": 15.928044956605895,
+    "rank": 168,
+    "closeness": 0.40484429065743943,
+    "betweenness": 8.421834425198999e-05
+  },
+  {
+    "asn": 4242421933,
+    "name": "NOP-BEACON",
+    "peers": 5,
+    "centrality": 15.923757689263978,
+    "rank": 169,
+    "closeness": 0.42177361211247294,
+    "betweenness": 1.8841209707825007e-05
+  },
+  {
+    "asn": 64600,
+    "name": "HEXA-AS",
+    "peers": 3,
+    "centrality": 15.882766542051883,
+    "rank": 170,
+    "closeness": 0.4009595613433859,
+    "betweenness": 9.594221168128362e-05
+  },
+  {
+    "asn": 4242420428,
+    "name": "HAX404-AS",
+    "peers": 11,
+    "centrality": 15.880095205032855,
+    "rank": 171,
+    "closeness": 0.3660826032540676,
+    "betweenness": 0.0006500983986029098
+  },
+  {
+    "asn": 4242422451,
+    "name": "AS-CCCIHL-DN42",
+    "peers": 4,
+    "centrality": 15.87466834891438,
+    "rank": 172,
+    "closeness": 0.4226878612716763,
+    "betweenness": 1.328236763131891e-05
+  },
+  {
+    "asn": 4242423669,
+    "name": "AS-FOXNET-DN42",
+    "peers": 6,
+    "centrality": 15.870414468110017,
+    "rank": 173,
+    "closeness": 0.4088050314465409,
+    "betweenness": 5.045447183352653e-05
+  },
+  {
+    "asn": 4242421145,
+    "name": "AS-JPS-DN42",
+    "peers": 4,
+    "centrality": 15.851107612395124,
+    "rank": 174,
+    "closeness": 0.4184549356223176,
+    "betweenness": 1.8841209707825007e-05
+  },
+  {
+    "asn": 4242423466,
+    "name": "AS-SMPS-DN42",
+    "peers": 4,
+    "centrality": 15.851107612395124,
+    "rank": 175,
+    "closeness": 0.4184549356223176,
+    "betweenness": 1.8841209707825007e-05
+  },
+  {
+    "asn": 4242421216,
+    "name": "SIRAYUKI-AS",
+    "peers": 6,
+    "centrality": 15.83954426569725,
+    "rank": 176,
+    "closeness": 0.3593366093366093,
+    "betweenness": 0.000800885541042518
+  },
+  {
+    "asn": 4242422253,
+    "name": "WOODIE-AS",
+    "peers": 2,
+    "centrality": 15.81901035382089,
+    "rank": 177,
+    "closeness": 0.39314516129032256,
+    "betweenness": 0.00013370750599860207
+  },
+  {
+    "asn": 4242421882,
+    "name": "XENO-AS",
+    "peers": 5,
+    "centrality": 15.808406511906218,
+    "rank": 178,
+    "closeness": 0.4223826714801444,
+    "betweenness": 9.567240027688775e-06
+  },
+  {
+    "asn": 4242421017,
+    "name": "DRMESSANO-AS",
+    "peers": 4,
+    "centrality": 15.788561463309012,
+    "rank": 179,
+    "closeness": 0.41875447387258413,
+    "betweenness": 1.328236763131891e-05
+  },
+  {
+    "asn": 4242423136,
+    "name": "RADIANEXUS-AS",
+    "peers": 4,
+    "centrality": 15.78769714374829,
+    "rank": 180,
+    "closeness": 0.4151880766501065,
+    "betweenness": 1.9591980208418566e-05
+  },
+  {
+    "asn": 4242423868,
+    "name": "CHIMON-NET",
+    "peers": 5,
+    "centrality": 15.78590819674254,
+    "rank": 181,
+    "closeness": 0.41371994342291374,
+    "betweenness": 2.2604155480530132e-05
+  },
+  {
+    "asn": 4242422379,
+    "name": "ADRA-AS",
+    "peers": 4,
+    "centrality": 15.783733864488612,
+    "rank": 182,
+    "closeness": 0.4125528913963329,
+    "betweenness": 2.5150822284924665e-05
+  },
+  {
+    "asn": 4242423717,
+    "name": "BINGYIN-AS",
+    "peers": 5,
+    "centrality": 15.766840360236557,
+    "rank": 183,
+    "closeness": 0.4134275618374558,
+    "betweenness": 2.130762876197541e-05
+  },
+  {
+    "asn": 4242421541,
+    "name": "PELETHIEC-AS",
+    "peers": 8,
+    "centrality": 15.75724476870878,
+    "rank": 184,
+    "closeness": 0.38260300850228907,
+    "betweenness": 0.00021448929384192215
+  },
+  {
+    "asn": 4242420732,
+    "name": "AS-FEF-DN42",
+    "peers": 4,
+    "centrality": 15.742765653924863,
+    "rank": 185,
+    "closeness": 0.413135593220339,
+    "betweenness": 1.9591980208418566e-05
+  },
+  {
+    "asn": 64738,
+    "name": "WELTERDE-AS",
+    "peers": 7,
+    "centrality": 15.710107208303802,
+    "rank": 186,
+    "closeness": 0.3379549393414211,
+    "betweenness": 0.001453215911123602
+  },
+  {
+    "asn": 4201271488,
+    "name": "Polar Bear",
+    "peers": 2,
+    "centrality": 15.707280341367216,
+    "rank": 187,
+    "closeness": 0.31117021276595747,
+    "betweenness": 0.003418803418803419
+  },
+  {
+    "asn": 4242420366,
+    "name": "ROKKIEA-AS",
+    "peers": 7,
+    "centrality": 15.699897026377643,
+    "rank": 188,
+    "closeness": 0.4304635761589404,
+    "betweenness": 1.163385918376844e-06
+  },
+  {
+    "asn": 4242422116,
+    "name": "HOTARU-AS",
+    "peers": 7,
+    "centrality": 15.693588202367932,
+    "rank": 189,
+    "closeness": 0.4119718309859155,
+    "betweenness": 1.7457518637048146e-05
+  },
+  {
+    "asn": 4242420874,
+    "name": "AS-TEMPORAERHAUS-DN42",
+    "peers": 3,
+    "centrality": 15.684758813472591,
+    "rank": 190,
+    "closeness": 0.4140127388535032,
+    "betweenness": 1.328236763131891e-05
+  },
+  {
+    "asn": 4242420199,
+    "name": "IXNET-AS",
+    "peers": 3,
+    "centrality": 15.684758813472591,
+    "rank": 191,
+    "closeness": 0.4140127388535032,
+    "betweenness": 1.328236763131891e-05
+  },
+  {
+    "asn": 4242421388,
+    "name": "AS-GMELODIE-DN42",
+    "peers": 2,
+    "centrality": 15.673890611452762,
+    "rank": 192,
+    "closeness": 0.3936742934051144,
+    "betweenness": 8.154891310397124e-05
+  },
+  {
+    "asn": 4242420361,
+    "name": "XTEX-AS",
+    "peers": 5,
+    "centrality": 15.667615143515722,
+    "rank": 193,
+    "closeness": 0.41168191414496835,
+    "betweenness": 1.582622047132514e-05
+  },
+  {
+    "asn": 4242423073,
+    "name": "PATERNOT-AS",
+    "peers": 10,
+    "centrality": 15.652845747733602,
+    "rank": 194,
+    "closeness": 0.3651685393258427,
+    "betweenness": 0.0004198231066035906
+  },
+  {
+    "asn": 4242423293,
+    "name": "AS-PAT93-DN32",
+    "peers": 4,
+    "centrality": 15.609759622556549,
+    "rank": 195,
+    "closeness": 0.3928811282740094,
+    "betweenness": 6.947449502600484e-05
+  },
+  {
+    "asn": 4242420965,
+    "name": "HPG-AS",
+    "peers": 5,
+    "centrality": 15.607074649661126,
+    "rank": 196,
+    "closeness": 0.4105263157894737,
+    "betweenness": 1.3186989609539662e-05
+  },
+  {
+    "asn": 4242420501,
+    "name": "AS-MX-DN42",
+    "peers": 4,
+    "centrality": 15.551965458091168,
+    "rank": 197,
+    "closeness": 0.4085195530726257,
+    "betweenness": 1.2423397561920863e-05
+  },
+  {
+    "asn": 4242420275,
+    "name": "Starstorm42",
+    "peers": 3,
+    "centrality": 15.530619044375303,
+    "rank": 198,
+    "closeness": 0.39661016949152544,
+    "betweenness": 3.7912376015658516e-05
+  },
+  {
+    "asn": 4242423117,
+    "name": "DNSENSE-DN42",
+    "peers": 10,
+    "centrality": 15.51069001436176,
+    "rank": 199,
+    "closeness": 0.3987730061349693,
+    "betweenness": 2.8554748458432863e-05
+  },
+  {
+    "asn": 4242420490,
+    "name": "AS-IVANG-DN42",
+    "peers": 5,
+    "centrality": 15.508812060742857,
+    "rank": 200,
+    "closeness": 0.40681502086230875,
+    "betweenness": 1.2037987603422264e-05
+  },
+  {
+    "asn": 4242422665,
+    "name": "CHMOD-AS",
+    "peers": 5,
+    "centrality": 15.47235608830927,
+    "rank": 201,
+    "closeness": 0.41371994342291374,
+    "betweenness": 3.725346191099615e-06
+  },
+  {
+    "asn": 4242421255,
+    "name": "YUKINO-AS",
+    "peers": 4,
+    "centrality": 15.454082864419387,
+    "rank": 202,
+    "closeness": 0.4102384291725105,
+    "betweenness": 5.558842076506099e-06
+  },
+  {
+    "asn": 4242422025,
+    "name": "ALTK-AS",
+    "peers": 4,
+    "centrality": 15.431565374258998,
+    "rank": 203,
+    "closeness": 0.4012345679012346,
+    "betweenness": 1.5246221635806483e-05
+  },
+  {
+    "asn": 4242421513,
+    "name": "Tennoji Network",
+    "peers": 4,
+    "centrality": 15.43092280116441,
+    "rank": 204,
+    "closeness": 0.40540540540540543,
+    "betweenness": 9.251159665723471e-06
+  },
+  {
+    "asn": 4242422535,
+    "name": "XYS20071111-AS",
+    "peers": 5,
+    "centrality": 15.409485730992582,
+    "rank": 205,
+    "closeness": 0.42483660130718953,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242421838,
+    "name": "BOOTL0ADER-AS",
+    "peers": 3,
+    "centrality": 15.408762789364772,
+    "rank": 206,
+    "closeness": 0.38767395626242546,
+    "betweenness": 5.0633285318179843e-05
+  },
+  {
+    "asn": 4242420390,
+    "name": "AS-FLISK-DN42",
+    "peers": 5,
+    "centrality": 15.348946663786098,
+    "rank": 207,
+    "closeness": 0.4119718309859155,
+    "betweenness": 1.9025875190258753e-06
+  },
+  {
+    "asn": 4242420304,
+    "name": "04DCO-AS",
+    "peers": 3,
+    "centrality": 15.336594615612041,
+    "rank": 208,
+    "closeness": 0.40317022742935904,
+    "betweenness": 7.049799858380973e-06
+  },
+  {
+    "asn": 4242421014,
+    "name": "AS-ASTUTUS-DN42",
+    "peers": 4,
+    "centrality": 15.336357957676025,
+    "rank": 209,
+    "closeness": 0.3926174496644295,
+    "betweenness": 2.3930906335977524e-05
+  },
+  {
+    "asn": 4242421650,
+    "name": "AS-SHADE-DN42",
+    "peers": 3,
+    "centrality": 15.329869249023336,
+    "rank": 210,
+    "closeness": 0.4045643153526971,
+    "betweenness": 5.558842076506099e-06
+  },
+  {
+    "asn": 4201270000,
+    "name": "NeoNetwork Origin",
+    "peers": 8,
+    "centrality": 15.323549528449266,
+    "rank": 211,
+    "closeness": 0.35071942446043164,
+    "betweenness": 0.0004077978102439273
+  },
+  {
+    "asn": 4242423012,
+    "name": "nex private AS",
+    "peers": 6,
+    "centrality": 15.30953868342362,
+    "rank": 212,
+    "closeness": 0.3399186519465427,
+    "betweenness": 0.0006529695165611216
+  },
+  {
+    "asn": 4242421367,
+    "name": "DIMAGUY-AS",
+    "peers": 4,
+    "centrality": 15.292920809687601,
+    "rank": 213,
+    "closeness": 0.3998632946001367,
+    "betweenness": 8.390041503049916e-06
+  },
+  {
+    "asn": 4242421482,
+    "name": "AS-MORIK-DN42",
+    "peers": 4,
+    "centrality": 15.289482930096668,
+    "rank": 214,
+    "closeness": 0.41935483870967744,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242420703,
+    "name": "SESQUIALTERA-AS",
+    "peers": 3,
+    "centrality": 15.275808712268226,
+    "rank": 215,
+    "closeness": 0.3871608206485771,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 4242420904,
+    "name": "AS-Y525",
+    "peers": 5,
+    "centrality": 15.272499683968222,
+    "rank": 216,
+    "closeness": 0.4026152787336545,
+    "betweenness": 5.040778205072056e-06
+  },
+  {
+    "asn": 4242423172,
+    "name": "IWAKURA-AS",
+    "peers": 3,
+    "centrality": 15.254618792363058,
+    "rank": 217,
+    "closeness": 0.37987012987012986,
+    "betweenness": 5.390759850127752e-05
+  },
+  {
+    "asn": 4242421830,
+    "name": "SARANG-AS",
+    "peers": 3,
+    "centrality": 15.252996226570671,
+    "rank": 218,
+    "closeness": 0.40013679890560877,
+    "betweenness": 6.328498856097954e-06
+  },
+  {
+    "asn": 4242421530,
+    "name": "Zoddo",
+    "peers": 6,
+    "centrality": 15.228118202003,
+    "rank": 219,
+    "closeness": 0.3709575142675967,
+    "betweenness": 9.660446007182781e-05
+  },
+  {
+    "asn": 4242422244,
+    "name": "ICEZ-DN42",
+    "peers": 7,
+    "centrality": 15.206626370777592,
+    "rank": 220,
+    "closeness": 0.3554070473876063,
+    "betweenness": 0.0002409375612813216
+  },
+  {
+    "asn": 4242422924,
+    "name": "AS-BANDURA-LAB-DN42",
+    "peers": 5,
+    "centrality": 15.185384114861659,
+    "rank": 221,
+    "closeness": 0.4145995747696669,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242421604,
+    "name": "LIBECHO-AS",
+    "peers": 5,
+    "centrality": 15.155526696629664,
+    "rank": 222,
+    "closeness": 0.39,
+    "betweenness": 1.3033959951768168e-05
+  },
+  {
+    "asn": 4242423905,
+    "name": "WEITI-AS",
+    "peers": 3,
+    "centrality": 15.112429206349937,
+    "rank": 223,
+    "closeness": 0.4004106776180698,
+    "betweenness": 2.1883450032389266e-06
+  },
+  {
+    "asn": 4242421022,
+    "name": "AS-BSDROCKER-DN42",
+    "peers": 3,
+    "centrality": 15.112429206349937,
+    "rank": 224,
+    "closeness": 0.4004106776180698,
+    "betweenness": 2.1883450032389266e-06
+  },
+  {
+    "asn": 4242423343,
+    "name": "BLUESYS-AS",
+    "peers": 5,
+    "centrality": 15.092069915406443,
+    "rank": 225,
+    "closeness": 0.40013679890560877,
+    "betweenness": 1.9389344995245943e-06
+  },
+  {
+    "asn": 4242423953,
+    "name": "Erinn Network Global Backbone",
+    "peers": 2,
+    "centrality": 15.088015404006976,
+    "rank": 226,
+    "closeness": 0.2828820116054159,
+    "betweenness": 0.003418803418803419
+  },
+  {
+    "asn": 4242421440,
+    "name": "AS-HTW-DN42",
+    "peers": 5,
+    "centrality": 15.077335121369963,
+    "rank": 227,
+    "closeness": 0.4096638655462185,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242423385,
+    "name": "AS-ZNOTM-DN42",
+    "peers": 4,
+    "centrality": 15.07151503060852,
+    "rank": 228,
+    "closeness": 0.4205607476635514,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 64636,
+    "name": "RaumZeitLabor",
+    "peers": 5,
+    "centrality": 15.041316229595411,
+    "rank": 229,
+    "closeness": 0.35347432024169184,
+    "betweenness": 0.0001735270012320371
+  },
+  {
+    "asn": 4242420475,
+    "name": "AS-REDXEN-DN42",
+    "peers": 6,
+    "centrality": 15.039811830743137,
+    "rank": 230,
+    "closeness": 0.40794979079497906,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242423940,
+    "name": "Unnamed aut-num AS4242423940",
+    "peers": 4,
+    "centrality": 15.00580044703024,
+    "rank": 231,
+    "closeness": 0.41755888650963596,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423186,
+    "name": "JONES-AS",
+    "peers": 3,
+    "centrality": 15.00433382440532,
+    "rank": 232,
+    "closeness": 0.37475976937860345,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 4242421055,
+    "name": "AS for TMWAWPL network",
+    "peers": 3,
+    "centrality": 14.986268612466697,
+    "rank": 233,
+    "closeness": 0.4166666666666667,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421608,
+    "name": "LEAH2-AS",
+    "peers": 3,
+    "centrality": 14.982956896970148,
+    "rank": 234,
+    "closeness": 0.3194975423265975,
+    "betweenness": 0.0008247619935876311
+  },
+  {
+    "asn": 4242422505,
+    "name": "LOLI-NET-AS",
+    "peers": 4,
+    "centrality": 14.981639214232125,
+    "rank": 235,
+    "closeness": 0.3693181818181818,
+    "betweenness": 4.595897965123935e-05
+  },
+  {
+    "asn": 4242420074,
+    "name": "SPLASH",
+    "peers": 3,
+    "centrality": 14.97977653649433,
+    "rank": 236,
+    "closeness": 0.41637010676156583,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423843,
+    "name": "MCBONE CORE NETWORK",
+    "peers": 3,
+    "centrality": 14.97977653649433,
+    "rank": 237,
+    "closeness": 0.41637010676156583,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423606,
+    "name": "AS-FINITUD-DN42",
+    "peers": 3,
+    "centrality": 14.97977653649433,
+    "rank": 238,
+    "closeness": 0.41637010676156583,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423302,
+    "name": "AS-MAINFRAME-DN42",
+    "peers": 3,
+    "centrality": 14.97977653649433,
+    "rank": 239,
+    "closeness": 0.41637010676156583,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421171,
+    "name": "AS-FEVOF-DN42",
+    "peers": 3,
+    "centrality": 14.97977653649433,
+    "rank": 240,
+    "closeness": 0.41637010676156583,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421337,
+    "name": "BENNET-AS",
+    "peers": 4,
+    "centrality": 14.959578892802993,
+    "rank": 241,
+    "closeness": 0.40428472702142365,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242420680,
+    "name": "AS-LAMGC-DN42",
+    "peers": 3,
+    "centrality": 14.947454285908504,
+    "rank": 242,
+    "closeness": 0.4148936170212766,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422027,
+    "name": "RDBCN-AS",
+    "peers": 3,
+    "centrality": 14.947454285908504,
+    "rank": 243,
+    "closeness": 0.4148936170212766,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422151,
+    "name": "BGP404-NET",
+    "peers": 2,
+    "centrality": 14.936575486129703,
+    "rank": 244,
+    "closeness": 0.37166454891994916,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 64606,
+    "name": "RIPPERFOX-AS",
+    "peers": 2,
+    "centrality": 14.936575486129703,
+    "rank": 245,
+    "closeness": 0.37166454891994916,
+    "betweenness": 3.104130510976128e-05
+  },
+  {
+    "asn": 4242421964,
+    "name": "AS-SPF-DN42",
+    "peers": 7,
+    "centrality": 14.932477812155877,
+    "rank": 246,
+    "closeness": 0.38461538461538464,
+    "betweenness": 7.14073422187226e-06
+  },
+  {
+    "asn": 4242423929,
+    "name": "AS for v0ttis Network",
+    "peers": 4,
+    "centrality": 14.928451484269681,
+    "rank": 247,
+    "closeness": 0.27413308341143394,
+    "betweenness": 0.003565329218273447
+  },
+  {
+    "asn": 4242422033,
+    "name": "PDURLEJ-AS",
+    "peers": 3,
+    "centrality": 14.921761068328259,
+    "rank": 248,
+    "closeness": 0.41371994342291374,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421877,
+    "name": "LILY_NETWORK",
+    "peers": 9,
+    "centrality": 14.917010166361077,
+    "rank": 249,
+    "closeness": 0.3492537313432836,
+    "betweenness": 0.0001586327207211851
+  },
+  {
+    "asn": 4242421330,
+    "name": "HACKER-AS",
+    "peers": 3,
+    "centrality": 14.900992151508213,
+    "rank": 250,
+    "closeness": 0.3939393939393939,
+    "betweenness": 1.1708230886313078e-06
+  },
+  {
+    "asn": 4242420949,
+    "name": "AS-20PLAYS-DN42",
+    "peers": 3,
+    "centrality": 14.886786759304073,
+    "rank": 251,
+    "closeness": 0.4009595613433859,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242422459,
+    "name": "PyroNet-AS",
+    "peers": 3,
+    "centrality": 14.88349264918585,
+    "rank": 252,
+    "closeness": 0.4119718309859155,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420757,
+    "name": "TX-AS",
+    "peers": 2,
+    "centrality": 14.874077003611747,
+    "rank": 253,
+    "closeness": 0.27310924369747897,
+    "betweenness": 0.003418803418803419
+  },
+  {
+    "asn": 4242421282,
+    "name": "AS-STEPNEM-DN42",
+    "peers": 2,
+    "centrality": 14.858159529023226,
+    "rank": 254,
+    "closeness": 0.41081460674157305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420288,
+    "name": "IWARP-DN42",
+    "peers": 2,
+    "centrality": 14.858159529023226,
+    "rank": 255,
+    "closeness": 0.41081460674157305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420032,
+    "name": "ERGRBT-AS",
+    "peers": 2,
+    "centrality": 14.858159529023226,
+    "rank": 256,
+    "closeness": 0.41081460674157305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420177,
+    "name": "AS for JHE Network",
+    "peers": 2,
+    "centrality": 14.858159529023226,
+    "rank": 257,
+    "closeness": 0.41081460674157305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420740,
+    "name": "VIYERENET",
+    "peers": 2,
+    "centrality": 14.858159529023226,
+    "rank": 258,
+    "closeness": 0.41081460674157305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421961,
+    "name": "AS-MKJ-DN42",
+    "peers": 2,
+    "centrality": 14.858159529023226,
+    "rank": 259,
+    "closeness": 0.41081460674157305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422322,
+    "name": "PLASMATRIX-AS",
+    "peers": 3,
+    "centrality": 14.839252890639768,
+    "rank": 260,
+    "closeness": 0.4099509460406447,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421712,
+    "name": "Misaka-Network",
+    "peers": 4,
+    "centrality": 14.83296833110241,
+    "rank": 261,
+    "closeness": 0.4096638655462185,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420480,
+    "name": "AS-LEAK-DN42",
+    "peers": 4,
+    "centrality": 14.83296833110241,
+    "rank": 262,
+    "closeness": 0.4096638655462185,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423975,
+    "name": "FELIX-AS",
+    "peers": 4,
+    "centrality": 14.82669256730968,
+    "rank": 263,
+    "closeness": 0.4093771868439468,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420831,
+    "name": "TMS-AS",
+    "peers": 3,
+    "centrality": 14.820425580808969,
+    "rank": 264,
+    "closeness": 0.4090909090909091,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423828,
+    "name": "RU-NET-CLOUD",
+    "peers": 3,
+    "centrality": 14.820425580808969,
+    "rank": 265,
+    "closeness": 0.4090909090909091,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422049,
+    "name": "PPPWAW-AS",
+    "peers": 5,
+    "centrality": 14.820425580808969,
+    "rank": 266,
+    "closeness": 0.4090909090909091,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420251,
+    "name": "HANLIN-AS",
+    "peers": 4,
+    "centrality": 14.807917866130872,
+    "rank": 267,
+    "closeness": 0.4085195530726257,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421913,
+    "name": "SHOGNET-AS",
+    "peers": 2,
+    "centrality": 14.801064302796181,
+    "rank": 268,
+    "closeness": 0.35955746773202213,
+    "betweenness": 5.2145673240362015e-05
+  },
+  {
+    "asn": 4242421495,
+    "name": "LE-FAY-EDEN-AS",
+    "peers": 3,
+    "centrality": 14.795445040475585,
+    "rank": 269,
+    "closeness": 0.40794979079497906,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421465,
+    "name": "AS-PEANUTS-DN42",
+    "peers": 3,
+    "centrality": 14.795445040475585,
+    "rank": 270,
+    "closeness": 0.40794979079497906,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423411,
+    "name": "AS-SMYERS119-DN42",
+    "peers": 3,
+    "centrality": 14.789221665444796,
+    "rank": 271,
+    "closeness": 0.4076655052264808,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420343,
+    "name": "PEER-AS",
+    "peers": 3,
+    "centrality": 14.770603473941,
+    "rank": 272,
+    "closeness": 0.40681502086230875,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421590,
+    "name": "AS-PRICE41-NETWORK",
+    "peers": 3,
+    "centrality": 14.764414661152502,
+    "rank": 273,
+    "closeness": 0.4065323141070188,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423605,
+    "name": "BUKN-NET",
+    "peers": 3,
+    "centrality": 14.758234443937319,
+    "rank": 274,
+    "closeness": 0.40625,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423991,
+    "name": "AS4242423991",
+    "peers": 4,
+    "centrality": 14.753202056331828,
+    "rank": 275,
+    "closeness": 0.3528347406513872,
+    "betweenness": 7.448883361036819e-05
+  },
+  {
+    "asn": 4242423421,
+    "name": "CYNT4K-AS",
+    "peers": 3,
+    "centrality": 14.745899724696478,
+    "rank": 276,
+    "closeness": 0.4056865464632455,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421880,
+    "name": "AS-THD-DN42",
+    "peers": 3,
+    "centrality": 14.745899724696478,
+    "rank": 277,
+    "closeness": 0.4056865464632455,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421137,
+    "name": "LE37-AS",
+    "peers": 3,
+    "centrality": 14.733599173652983,
+    "rank": 278,
+    "closeness": 0.4051246537396122,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421909,
+    "name": "MODZILLA-AS",
+    "peers": 3,
+    "centrality": 14.733599173652983,
+    "rank": 279,
+    "closeness": 0.4051246537396122,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422733,
+    "name": "HYPRO-AS",
+    "peers": 3,
+    "centrality": 14.727461666869342,
+    "rank": 280,
+    "closeness": 0.40484429065743943,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421719,
+    "name": "GOFORCEX-AS",
+    "peers": 3,
+    "centrality": 14.727461666869342,
+    "rank": 281,
+    "closeness": 0.40484429065743943,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420267,
+    "name": "ASYNC-AS",
+    "peers": 3,
+    "centrality": 14.702996353423991,
+    "rank": 282,
+    "closeness": 0.40372670807453415,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420706,
+    "name": "SILENTY4NG-NET",
+    "peers": 3,
+    "centrality": 14.702996353423991,
+    "rank": 283,
+    "closeness": 0.40372670807453415,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422683,
+    "name": "RAEDNETWORK-AS",
+    "peers": 2,
+    "centrality": 14.70236402608442,
+    "rank": 284,
+    "closeness": 0.3660826032540676,
+    "betweenness": 1.863702468403329e-05
+  },
+  {
+    "asn": 4201270007,
+    "name": "Staph",
+    "peers": 5,
+    "centrality": 14.698766059395203,
+    "rank": 285,
+    "closeness": 0.3584558823529412,
+    "betweenness": 3.843834762964084e-05
+  },
+  {
+    "asn": 4242423055,
+    "name": "PZTRN-AS",
+    "peers": 3,
+    "centrality": 14.684735827634462,
+    "rank": 286,
+    "closeness": 0.40289256198347106,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422331,
+    "name": "WG-DN42",
+    "peers": 3,
+    "centrality": 14.684735827634462,
+    "rank": 287,
+    "closeness": 0.40289256198347106,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422571,
+    "name": "AS-THOMAS-DN42",
+    "peers": 2,
+    "centrality": 14.678665742323835,
+    "rank": 288,
+    "closeness": 0.4026152787336545,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421772,
+    "name": "REX-AS",
+    "peers": 3,
+    "centrality": 14.666550602982209,
+    "rank": 289,
+    "closeness": 0.4020618556701031,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420344,
+    "name": "MYSHA-AS",
+    "peers": 2,
+    "centrality": 14.648440214645397,
+    "rank": 290,
+    "closeness": 0.4012345679012346,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423830,
+    "name": "Asuhe-AS-DN42",
+    "peers": 2,
+    "centrality": 14.648440214645397,
+    "rank": 291,
+    "closeness": 0.4012345679012346,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423219,
+    "name": "AS-NOISYTOOT-DN42",
+    "peers": 2,
+    "centrality": 14.648440214645397,
+    "rank": 292,
+    "closeness": 0.4012345679012346,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422108,
+    "name": "REPIERRE-AS",
+    "peers": 2,
+    "centrality": 14.648440214645397,
+    "rank": 293,
+    "closeness": 0.4012345679012346,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421577,
+    "name": "TAONET-AS",
+    "peers": 2,
+    "centrality": 14.648440214645397,
+    "rank": 294,
+    "closeness": 0.4012345679012346,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422471,
+    "name": "AS-SERVERFORGE-DN42",
+    "peers": 2,
+    "centrality": 14.648440214645397,
+    "rank": 295,
+    "closeness": 0.4012345679012346,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421500,
+    "name": "AS-REDOSTE",
+    "peers": 2,
+    "centrality": 14.648440214645397,
+    "rank": 296,
+    "closeness": 0.4012345679012346,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422913,
+    "name": "fbm-AS",
+    "peers": 2,
+    "centrality": 14.636407970339434,
+    "rank": 297,
+    "closeness": 0.4006849315068493,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423342,
+    "name": "AS-ATIMIAS-DN42",
+    "peers": 3,
+    "centrality": 14.635579264535238,
+    "rank": 298,
+    "closeness": 0.372848948374761,
+    "betweenness": 5.558842076506099e-06
+  },
+  {
+    "asn": 4242420213,
+    "name": "THOMAS405-AS",
+    "peers": 3,
+    "centrality": 14.61842128660933,
+    "rank": 299,
+    "closeness": 0.3998632946001367,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 215751,
+    "name": "AS-NETZR-DN42",
+    "peers": 3,
+    "centrality": 14.61842128660933,
+    "rank": 300,
+    "closeness": 0.3998632946001367,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421307,
+    "name": "AS for Netali's network",
+    "peers": 3,
+    "centrality": 14.61842128660933,
+    "rank": 301,
+    "closeness": 0.3998632946001367,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421713,
+    "name": "AS-BSDAC-DN42",
+    "peers": 4,
+    "centrality": 14.616838054164127,
+    "rank": 302,
+    "closeness": 0.3700189753320683,
+    "betweenness": 7.31398408197935e-06
+  },
+  {
+    "asn": 4242421967,
+    "name": "AS-PARTIALAS-DN42",
+    "peers": 3,
+    "centrality": 14.612442106680835,
+    "rank": 303,
+    "closeness": 0.39959016393442626,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421166,
+    "name": "MXMILU-AS",
+    "peers": 3,
+    "centrality": 14.600508218228732,
+    "rank": 304,
+    "closeness": 0.3990450204638472,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423762,
+    "name": "SMAIZ",
+    "peers": 2,
+    "centrality": 14.600508218228732,
+    "rank": 305,
+    "closeness": 0.3990450204638472,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422268,
+    "name": "AS-PHOBOS-DN42",
+    "peers": 2,
+    "centrality": 14.600508218228732,
+    "rank": 306,
+    "closeness": 0.3990450204638472,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423836,
+    "name": "ROCKY-AS",
+    "peers": 2,
+    "centrality": 14.594553476342615,
+    "rank": 307,
+    "closeness": 0.3987730061349693,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422691,
+    "name": "AS-IGONICNET-DN42",
+    "peers": 2,
+    "centrality": 14.582668314184614,
+    "rank": 308,
+    "closeness": 0.39823008849557523,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421332,
+    "name": "NIACN-AS",
+    "peers": 8,
+    "centrality": 14.578887898652518,
+    "rank": 309,
+    "closeness": 0.3443201883460859,
+    "betweenness": 7.762875233601115e-05
+  },
+  {
+    "asn": 4242420295,
+    "name": "AS-VERTICUBE-DN42",
+    "peers": 2,
+    "centrality": 14.576737860822103,
+    "rank": 310,
+    "closeness": 0.3979591836734694,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422799,
+    "name": "SEBASTIAN-AS",
+    "peers": 2,
+    "centrality": 14.570815470618477,
+    "rank": 311,
+    "closeness": 0.39768864717878993,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422045,
+    "name": "TR-NETWORK",
+    "peers": 2,
+    "centrality": 14.570815470618477,
+    "rank": 312,
+    "closeness": 0.39768864717878993,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423941,
+    "name": "MARLINC-HOME",
+    "peers": 2,
+    "centrality": 14.570815470618477,
+    "rank": 313,
+    "closeness": 0.39768864717878993,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421667,
+    "name": "AS4242421667",
+    "peers": 2,
+    "centrality": 14.570815470618477,
+    "rank": 314,
+    "closeness": 0.39768864717878993,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422661,
+    "name": "AS-LUSICH1-DN42",
+    "peers": 2,
+    "centrality": 14.570815470618477,
+    "rank": 315,
+    "closeness": 0.39768864717878993,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423192,
+    "name": "AS-NORTHREND-DN42",
+    "peers": 2,
+    "centrality": 14.570815470618477,
+    "rank": 316,
+    "closeness": 0.39768864717878993,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423506,
+    "name": "NETAVIATOR-AS",
+    "peers": 2,
+    "centrality": 14.570815470618477,
+    "rank": 317,
+    "closeness": 0.39768864717878993,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421305,
+    "name": "AS-N005-DN42",
+    "peers": 3,
+    "centrality": 14.564901127140676,
+    "rank": 318,
+    "closeness": 0.39741847826086957,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420180,
+    "name": "Gatuno ASN",
+    "peers": 5,
+    "centrality": 14.55941531637044,
+    "rank": 319,
+    "closeness": 0.35911602209944754,
+    "betweenness": 1.9517574467913858e-05
+  },
+  {
+    "asn": 4242422936,
+    "name": "CHARLIENET-DN42",
+    "peers": 6,
+    "centrality": 14.547801525887662,
+    "rank": 320,
+    "closeness": 0.3415061295971979,
+    "betweenness": 8.60028831389657e-05
+  },
+  {
+    "asn": 4242422164,
+    "name": "IZUMINET-AS",
+    "peers": 2,
+    "centrality": 14.541323893384988,
+    "rank": 321,
+    "closeness": 0.39634146341463417,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420128,
+    "name": "AS-YINFENG-DN42",
+    "peers": 2,
+    "centrality": 14.523724660074452,
+    "rank": 322,
+    "closeness": 0.39553752535496955,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421141,
+    "name": "CEABQ-AS",
+    "peers": 2,
+    "centrality": 14.523724660074452,
+    "rank": 323,
+    "closeness": 0.39553752535496955,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421464,
+    "name": "AS-AIBO-DN42",
+    "peers": 3,
+    "centrality": 14.48873951749351,
+    "rank": 324,
+    "closeness": 0.3939393939393939,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421476,
+    "name": "4c3-AS",
+    "peers": 2,
+    "centrality": 14.465572727308952,
+    "rank": 325,
+    "closeness": 0.3928811282740094,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420500,
+    "name": "AS-SBBIG-DN42",
+    "peers": 2,
+    "centrality": 14.465572727308952,
+    "rank": 326,
+    "closeness": 0.3928811282740094,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 64720,
+    "name": "PRAUSCHER-AS",
+    "peers": 4,
+    "centrality": 14.464632948480135,
+    "rank": 327,
+    "closeness": 0.352622061482821,
+    "betweenness": 2.435138034626661e-05
+  },
+  {
+    "asn": 4242420367,
+    "name": "AS-AVF32-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 328,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420033,
+    "name": "MALTESE-ENGINEERING-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 329,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423147,
+    "name": "MELSONNET-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 330,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423926,
+    "name": "PSM-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 331,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423652,
+    "name": "NESQUIIKHOST-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 332,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422730,
+    "name": "MZIESEL-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 333,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420513,
+    "name": "IPPSEC-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 334,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421054,
+    "name": "AS-SHIELDY-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 335,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420350,
+    "name": "AS-ALX-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 336,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420432,
+    "name": "AS-NTLY-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 337,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423134,
+    "name": "AS4242423134",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 338,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423486,
+    "name": "ECC83-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 339,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422295,
+    "name": "AS-BENDERNG-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 340,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420866,
+    "name": "AS-U8336TEA-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 341,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422368,
+    "name": "STOCKWERK42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 342,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421173,
+    "name": "AS-TZERMIAS-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 343,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422104,
+    "name": "AS-MME-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 344,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421036,
+    "name": "AS-JOKKE-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 345,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423488,
+    "name": "DRUSHA-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 346,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421111,
+    "name": "E3E-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 347,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423127,
+    "name": "HIJACK-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 348,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421155,
+    "name": "AS for L4RS net",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 349,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423487,
+    "name": "N0FUQ-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 350,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421019,
+    "name": "AS-BANDIT-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 351,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422047,
+    "name": "AS-MISSING-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 352,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422808,
+    "name": "SNOW-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 353,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423734,
+    "name": "INTERLAGOSA-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 354,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422920,
+    "name": "KLASTER-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 355,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421168,
+    "name": "AS-OAF-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 356,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 211169,
+    "name": "CARAMELFOX",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 357,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423064,
+    "name": "NODEB-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 358,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421436,
+    "name": "AS-DENIC",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 359,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422963,
+    "name": "AS-MNEERUP-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 360,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420384,
+    "name": "AS-MAXIMAL-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 361,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421403,
+    "name": "AS-ANTIBUILDING-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 362,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422868,
+    "name": "KWARNIMO-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 363,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423728,
+    "name": "HYVACATION-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 364,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423751,
+    "name": "No such as 4242423751",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 365,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422362,
+    "name": "HAKTRON-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 366,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422725,
+    "name": "AS-HYDAELYN-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 367,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422256,
+    "name": "AS-AFILINI-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 368,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420663,
+    "name": "AS-CYBERTRASH-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 369,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420575,
+    "name": "AS-HAAIEN-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 370,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422669,
+    "name": "AS-GROPIED-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 371,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421812,
+    "name": "AS-TOZTECH-DN42",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 372,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423742,
+    "name": "NGN-AS",
+    "peers": 1,
+    "centrality": 14.459800464989478,
+    "rank": 373,
+    "closeness": 0.3926174496644295,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423414,
+    "name": "ALIOTH-AS",
+    "peers": 3,
+    "centrality": 14.455597078145964,
+    "rank": 374,
+    "closeness": 0.35135135135135137,
+    "betweenness": 2.6496823191427775e-05
+  },
+  {
+    "asn": 4242423340,
+    "name": "EXABYTE-AS",
+    "peers": 4,
+    "centrality": 14.455053988629748,
+    "rank": 375,
+    "closeness": 0.36,
+    "betweenness": 1.0259730144748552e-05
+  },
+  {
+    "asn": 4242420713,
+    "name": "TREEXHD-AS",
+    "peers": 4,
+    "centrality": 14.436788688299524,
+    "rank": 376,
+    "closeness": 0.39156626506024095,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423754,
+    "name": "MOHO-AS",
+    "peers": 4,
+    "centrality": 14.370191348168785,
+    "rank": 377,
+    "closeness": 0.32809871003925967,
+    "betweenness": 0.0001241078957498395
+  },
+  {
+    "asn": 4242422099,
+    "name": "AS-JONASLED-DN42",
+    "peers": 4,
+    "centrality": 14.329144372686073,
+    "rank": 378,
+    "closeness": 0.38664904163912756,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420431,
+    "name": "REETUS-AS",
+    "peers": 2,
+    "centrality": 14.284668742187293,
+    "rank": 379,
+    "closeness": 0.34513274336283184,
+    "betweenness": 2.262740913782052e-05
+  },
+  {
+    "asn": 4242420737,
+    "name": "AS for TrueWinter Network",
+    "peers": 3,
+    "centrality": 14.281826992516294,
+    "rank": 380,
+    "closeness": 0.37332482450542437,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242420433,
+    "name": "LELAND-AS",
+    "peers": 3,
+    "centrality": 14.213271431011183,
+    "rank": 381,
+    "closeness": 0.3813559322033898,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423290,
+    "name": "AS-LUCASLAH-DN42",
+    "peers": 3,
+    "centrality": 14.191559156473552,
+    "rank": 382,
+    "closeness": 0.3803641092327698,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420002,
+    "name": "MWD2-AS",
+    "peers": 4,
+    "centrality": 14.143074374596573,
+    "rank": 383,
+    "closeness": 0.3427065026362039,
+    "betweenness": 1.4690434312553433e-05
+  },
+  {
+    "asn": 4242422706,
+    "name": "OLDSCHOOL-AS",
+    "peers": 3,
+    "centrality": 14.137769380729482,
+    "rank": 384,
+    "closeness": 0.37790697674418605,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 64654,
+    "name": "HAEGAR-AS",
+    "peers": 4,
+    "centrality": 14.13036818930107,
+    "rank": 385,
+    "closeness": 0.3449292452830189,
+    "betweenness": 1.0565833277463443e-05
+  },
+  {
+    "asn": 4242422446,
+    "name": "GSHAPIRO-AS",
+    "peers": 4,
+    "centrality": 14.11644755725155,
+    "rank": 386,
+    "closeness": 0.37693298969072164,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422750,
+    "name": "AS-RETROBOT-DN42",
+    "peers": 2,
+    "centrality": 14.074131938349192,
+    "rank": 387,
+    "closeness": 0.375,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421522,
+    "name": "MOECHS-AS",
+    "peers": 3,
+    "centrality": 14.068872982508667,
+    "rank": 388,
+    "closeness": 0.37475976937860345,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421037,
+    "name": "LIBREHOUSE-AS",
+    "peers": 5,
+    "centrality": 14.024146670669296,
+    "rank": 389,
+    "closeness": 0.3588957055214724,
+    "betweenness": 3.3968324176340405e-07
+  },
+  {
+    "asn": 4242420298,
+    "name": "HExpNetwork",
+    "peers": 6,
+    "centrality": 14.0146605205842,
+    "rank": 390,
+    "closeness": 0.3348597595878649,
+    "betweenness": 1.826009213205122e-05
+  },
+  {
+    "asn": 4242423024,
+    "name": "AS-WEILISSO-DN42",
+    "peers": 2,
+    "centrality": 14.011466059974705,
+    "rank": 391,
+    "closeness": 0.37213740458015265,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242429999,
+    "name": "Unnamed aut-num AS4242429999",
+    "peers": 3,
+    "centrality": 14.00682278397362,
+    "rank": 392,
+    "closeness": 0.3429073856975381,
+    "betweenness": 6.600652021325966e-06
+  },
+  {
+    "asn": 4242421102,
+    "name": "Unnamed aut-num AS4242421102",
+    "peers": 2,
+    "centrality": 13.995767944697429,
+    "rank": 393,
+    "closeness": 0.32160527762506874,
+    "betweenness": 5.732760936897385e-05
+  },
+  {
+    "asn": 64624,
+    "name": "No such as 64624",
+    "peers": 2,
+    "centrality": 13.991426079990633,
+    "rank": 394,
+    "closeness": 0.23278949462793475,
+    "betweenness": 0.003418803418803419
+  },
+  {
+    "asn": 4242421273,
+    "name": "spencercw",
+    "peers": 3,
+    "centrality": 13.975350829245901,
+    "rank": 395,
+    "closeness": 0.37048765041165294,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422606,
+    "name": "LUCIFER-AS",
+    "peers": 2,
+    "centrality": 13.965090931765884,
+    "rank": 396,
+    "closeness": 0.3700189753320683,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420750,
+    "name": "TRIHOP",
+    "peers": 2,
+    "centrality": 13.94464881426311,
+    "rank": 397,
+    "closeness": 0.36908517350157727,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420241,
+    "name": "CCCAC-AS",
+    "peers": 3,
+    "centrality": 13.935855346800281,
+    "rank": 398,
+    "closeness": 0.32019704433497537,
+    "betweenness": 5.1452133650980916e-05
+  },
+  {
+    "asn": 4242423089,
+    "name": "TMNET-AS",
+    "peers": 4,
+    "centrality": 13.884859981905143,
+    "rank": 399,
+    "closeness": 0.3551912568306011,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242421404,
+    "name": "FILIP-AS",
+    "peers": 4,
+    "centrality": 13.870722543140877,
+    "rank": 400,
+    "closeness": 0.35454545454545455,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 206633,
+    "name": "NULLROUTE-ARPA-AS",
+    "peers": 2,
+    "centrality": 13.87039174266696,
+    "rank": 401,
+    "closeness": 0.3277310924369748,
+    "betweenness": 1.9333849891199927e-05
+  },
+  {
+    "asn": 4242422330,
+    "name": "HoshinoTelecom",
+    "peers": 4,
+    "centrality": 13.82908029455643,
+    "rank": 402,
+    "closeness": 0.36380597014925375,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421742,
+    "name": "IMLK-AS",
+    "peers": 4,
+    "centrality": 13.824825217528318,
+    "rank": 403,
+    "closeness": 0.3163872363439697,
+    "betweenness": 4.6300588054322285e-05
+  },
+  {
+    "asn": 4242421801,
+    "name": "AS for VVIDIC Network",
+    "peers": 2,
+    "centrality": 13.813628327802611,
+    "rank": 404,
+    "closeness": 0.33505154639175255,
+    "betweenness": 5.761894087824882e-06
+  },
+  {
+    "asn": 4242423451,
+    "name": "RUBICK-AS",
+    "peers": 3,
+    "centrality": 13.784752770864788,
+    "rank": 405,
+    "closeness": 0.36178107606679033,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 62396,
+    "name": "Marcels AS",
+    "peers": 2,
+    "centrality": 13.779857931001022,
+    "rank": 406,
+    "closeness": 0.361557478368356,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423707,
+    "name": "AS-STROEBS-DN42",
+    "peers": 2,
+    "centrality": 13.766790364703041,
+    "rank": 407,
+    "closeness": 0.33756491633006347,
+    "betweenness": 2.7890819367227277e-06
+  },
+  {
+    "asn": 4242422088,
+    "name": "JAROD-AS",
+    "peers": 2,
+    "centrality": 13.756871465850367,
+    "rank": 408,
+    "closeness": 0.34170560747663553,
+    "betweenness": 1.163385918376844e-06
+  },
+  {
+    "asn": 212888,
+    "name": "JOT23-HOME",
+    "peers": 2,
+    "centrality": 13.702355301285387,
+    "rank": 409,
+    "closeness": 0.3580171358629131,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422724,
+    "name": "AS-DGZMN-DN42",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 410,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422077,
+    "name": "AS for FEU network",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 411,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 211535,
+    "name": "SaddleNetworks",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 412,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423389,
+    "name": "AS of Star's lab network",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 413,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422634,
+    "name": "AS-BDISCO-DN42",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 414,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423706,
+    "name": "UNGS-AS",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 415,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422597,
+    "name": "GOOSE-Net",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 416,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421518,
+    "name": "Drcai-SH",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 417,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420339,
+    "name": "PDOSTAL-AS",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 418,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422242,
+    "name": "ANIMUX-AS",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 419,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420843,
+    "name": "AS-ASTROPHAGE-DN42",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 420,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423564,
+    "name": "No such as 4242423564",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 421,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421720,
+    "name": "JOELH-DN42-NET",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 422,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421299,
+    "name": "SOMA-AS",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 423,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422851,
+    "name": "THEBAMPLAYER-AS",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 424,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423505,
+    "name": "AS-HIVEMIND-DN42",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 425,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421011,
+    "name": "GEORGE-NET",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 426,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421052,
+    "name": "AS-JOHAN-DN42",
+    "peers": 1,
+    "centrality": 13.69756175178692,
+    "rank": 427,
+    "closeness": 0.3577981651376147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422215,
+    "name": "AS-SJWHEEL-DN42",
+    "peers": 3,
+    "centrality": 13.589641853504158,
+    "rank": 428,
+    "closeness": 0.34170560747663553,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242421056,
+    "name": "ALLENYOU-AS",
+    "peers": 4,
+    "centrality": 13.588906035712498,
+    "rank": 429,
+    "closeness": 0.3528347406513872,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420442,
+    "name": "GRUE-HOME",
+    "peers": 2,
+    "centrality": 13.573061201517163,
+    "rank": 430,
+    "closeness": 0.30708661417322836,
+    "betweenness": 3.825702455839442e-05
+  },
+  {
+    "asn": 4242420639,
+    "name": "MyonNET",
+    "peers": 3,
+    "centrality": 13.547204753481072,
+    "rank": 431,
+    "closeness": 0.3509298140371926,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423508,
+    "name": "NIGHTCOFFEE-AS",
+    "peers": 2,
+    "centrality": 13.515080428406204,
+    "rank": 432,
+    "closeness": 0.34946236559139787,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420950,
+    "name": "TAVIMORI-AS",
+    "peers": 2,
+    "centrality": 13.496844007531081,
+    "rank": 433,
+    "closeness": 0.34862932061978547,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421808,
+    "name": "AS-RSX11-DN42",
+    "peers": 2,
+    "centrality": 13.469651814646618,
+    "rank": 434,
+    "closeness": 0.3473871733966746,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421000,
+    "name": "BLACKIX",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 435,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422589,
+    "name": "MEET-AS",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 436,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421944,
+    "name": "AS for IHEEL NET",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 437,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420182,
+    "name": "AS for Q1X Network",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 438,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420731,
+    "name": "BECKFAN-NET-AS",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 439,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420087,
+    "name": "AS-FELBINGER-DN42",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 440,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422403,
+    "name": "HUGGY-NET",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 441,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422363,
+    "name": "AS-CA73TESTNET-DN42",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 442,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422030,
+    "name": "akaNet",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 443,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420951,
+    "name": "NEPNEP-NETTO",
+    "peers": 1,
+    "centrality": 13.4561282522103,
+    "rank": 444,
+    "closeness": 0.34676941315945464,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423764,
+    "name": "186526-AS",
+    "peers": 2,
+    "centrality": 13.442652702421688,
+    "rank": 445,
+    "closeness": 0.34615384615384615,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423364,
+    "name": "AS-IX64-DN42",
+    "peers": 2,
+    "centrality": 13.442652702421688,
+    "rank": 446,
+    "closeness": 0.34615384615384615,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420772,
+    "name": "MISAKA10072-AS",
+    "peers": 3,
+    "centrality": 13.43679350210683,
+    "rank": 447,
+    "closeness": 0.31897491821155943,
+    "betweenness": 4.882693330753712e-06
+  },
+  {
+    "asn": 4242422457,
+    "name": "astroanax",
+    "peers": 2,
+    "centrality": 13.424759548156917,
+    "rank": 448,
+    "closeness": 0.34533648170011805,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420953,
+    "name": "TILDE-GREEN-AS",
+    "peers": 2,
+    "centrality": 13.411395038415849,
+    "rank": 449,
+    "closeness": 0.3447259870359458,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421774,
+    "name": "CELLARDOOR-AS",
+    "peers": 2,
+    "centrality": 13.398077697532688,
+    "rank": 450,
+    "closeness": 0.34411764705882353,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 65142,
+    "name": "ICVPN-FULDA",
+    "peers": 3,
+    "centrality": 13.398055744433286,
+    "rank": 451,
+    "closeness": 0.3329538986909505,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242422660,
+    "name": "IMTSSIR-AS",
+    "peers": 1,
+    "centrality": 13.39364902273772,
+    "rank": 452,
+    "closeness": 0.3439153439153439,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421832,
+    "name": "EAN",
+    "peers": 1,
+    "centrality": 13.39364902273772,
+    "rank": 453,
+    "closeness": 0.3439153439153439,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422083,
+    "name": "LICEN777-AS",
+    "peers": 1,
+    "centrality": 13.39364902273772,
+    "rank": 454,
+    "closeness": 0.3439153439153439,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420727,
+    "name": "AS-JK-DN42",
+    "peers": 1,
+    "centrality": 13.39364902273772,
+    "rank": 455,
+    "closeness": 0.3439153439153439,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420347,
+    "name": "DUCK-AS",
+    "peers": 1,
+    "centrality": 13.39364902273772,
+    "rank": 456,
+    "closeness": 0.3439153439153439,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420871,
+    "name": "AS-CLAUDIA-DN42",
+    "peers": 1,
+    "centrality": 13.39364902273772,
+    "rank": 457,
+    "closeness": 0.3439153439153439,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422328,
+    "name": "EDDIE303-AS",
+    "peers": 1,
+    "centrality": 13.389225552025941,
+    "rank": 458,
+    "closeness": 0.3437132784958872,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423467,
+    "name": "AS-ZEHKA-DN42",
+    "peers": 1,
+    "centrality": 13.389225552025941,
+    "rank": 459,
+    "closeness": 0.3437132784958872,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423699,
+    "name": "TSINGYAO-AS",
+    "peers": 1,
+    "centrality": 13.389225552025941,
+    "rank": 460,
+    "closeness": 0.3437132784958872,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422037,
+    "name": "NARNIA-AS",
+    "peers": 1,
+    "centrality": 13.389225552025941,
+    "rank": 461,
+    "closeness": 0.3437132784958872,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423299,
+    "name": "TS2-AS",
+    "peers": 2,
+    "centrality": 13.384686749339563,
+    "rank": 462,
+    "closeness": 0.3151939655172414,
+    "betweenness": 5.981403202313297e-06
+  },
+  {
+    "asn": 4242423772,
+    "name": "LDTI-AS",
+    "peers": 2,
+    "centrality": 13.381499726073548,
+    "rank": 463,
+    "closeness": 0.3321976149914821,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242423182,
+    "name": "CRXN-GATEWAY",
+    "peers": 2,
+    "centrality": 13.381499726073548,
+    "rank": 464,
+    "closeness": 0.3321976149914821,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242422969,
+    "name": "AS-KRAZYNET-DN42",
+    "peers": 2,
+    "centrality": 13.381499726073548,
+    "rank": 465,
+    "closeness": 0.3321976149914821,
+    "betweenness": 1.4454606032485281e-07
+  },
+  {
+    "asn": 4242421942,
+    "name": "CHUCKOGGY Network",
+    "peers": 2,
+    "centrality": 13.367185939604342,
+    "rank": 466,
+    "closeness": 0.3427065026362039,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4201270100,
+    "name": "chanceyan",
+    "peers": 2,
+    "centrality": 13.319549589056587,
+    "rank": 467,
+    "closeness": 0.31316916488222696,
+    "betweenness": 5.217576017188299e-06
+  },
+  {
+    "asn": 4242420970,
+    "name": "AS-F2K1DE-DN42",
+    "peers": 2,
+    "centrality": 13.284599962027318,
+    "rank": 468,
+    "closeness": 0.3389339513325608,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420835,
+    "name": "XYenon Network",
+    "peers": 4,
+    "centrality": 13.263168136230854,
+    "rank": 469,
+    "closeness": 0.3379549393414211,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 134098,
+    "name": "SYLVEON-AS-AP",
+    "peers": 3,
+    "centrality": 13.258896619911607,
+    "rank": 470,
+    "closeness": 0.3377598152424942,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423495,
+    "name": "BOXJAN-AS",
+    "peers": 1,
+    "centrality": 13.220673786633272,
+    "rank": 471,
+    "closeness": 0.3360137851809305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421786,
+    "name": "AS-STORMYANG-DN42",
+    "peers": 1,
+    "centrality": 13.220673786633272,
+    "rank": 472,
+    "closeness": 0.3360137851809305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 7721,
+    "name": "SUNNET",
+    "peers": 1,
+    "centrality": 13.220673786633272,
+    "rank": 473,
+    "closeness": 0.3360137851809305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421475,
+    "name": "SIRMYSTERION-AS",
+    "peers": 1,
+    "centrality": 13.220673786633272,
+    "rank": 474,
+    "closeness": 0.3360137851809305,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4201270020,
+    "name": "Edward_P",
+    "peers": 3,
+    "centrality": 13.161995264231686,
+    "rank": 475,
+    "closeness": 0.3333333333333333,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421926,
+    "name": "ZHAOFENG-AS",
+    "peers": 1,
+    "centrality": 13.157839744076252,
+    "rank": 476,
+    "closeness": 0.3331435079726651,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4258750001,
+    "name": "No such as 4258750001",
+    "peers": 2,
+    "centrality": 13.145225608899032,
+    "rank": 477,
+    "closeness": 0.31117021276595747,
+    "betweenness": 1.9513718143855128e-06
+  },
+  {
+    "asn": 4242422417,
+    "name": "AS-DUCKL1NG-DN42",
+    "peers": 1,
+    "centrality": 13.128883099090721,
+    "rank": 478,
+    "closeness": 0.3318207600680658,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422006,
+    "name": "THINKINGNULL-AS",
+    "peers": 2,
+    "centrality": 13.120651958889251,
+    "rank": 479,
+    "closeness": 0.3314447592067989,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422839,
+    "name": "AS-HIIRAGI-DN42",
+    "peers": 1,
+    "centrality": 13.087913097805899,
+    "rank": 480,
+    "closeness": 0.3299492385786802,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423376,
+    "name": "BRNET-AS",
+    "peers": 1,
+    "centrality": 13.087913097805899,
+    "rank": 481,
+    "closeness": 0.3299492385786802,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422243,
+    "name": "TYPESCRIPT-AS",
+    "peers": 1,
+    "centrality": 13.087913097805899,
+    "rank": 482,
+    "closeness": 0.3299492385786802,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423574,
+    "name": "JASONLIN-AS",
+    "peers": 1,
+    "centrality": 13.087913097805899,
+    "rank": 483,
+    "closeness": 0.3299492385786802,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423185,
+    "name": "AS-BKSP-DN42",
+    "peers": 1,
+    "centrality": 13.087913097805899,
+    "rank": 484,
+    "closeness": 0.3299492385786802,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421699,
+    "name": "AS-LSN-DN42",
+    "peers": 1,
+    "centrality": 13.087913097805899,
+    "rank": 485,
+    "closeness": 0.3299492385786802,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423814,
+    "name": "AS-ROCCORO-DN42",
+    "peers": 1,
+    "centrality": 13.039355039140258,
+    "rank": 486,
+    "closeness": 0.3277310924369748,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420499,
+    "name": "BACTERIA-AS",
+    "peers": 1,
+    "centrality": 13.039355039140258,
+    "rank": 487,
+    "closeness": 0.3277310924369748,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4201272032,
+    "name": "LapisNetwork-NEO",
+    "peers": 3,
+    "centrality": 13.02731736603984,
+    "rank": 488,
+    "closeness": 0.3271812080536913,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4201270022,
+    "name": "lilydjwg",
+    "peers": 2,
+    "centrality": 13.019314667163027,
+    "rank": 489,
+    "closeness": 0.3268156424581006,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423151,
+    "name": "AS for ASHAW Network",
+    "peers": 2,
+    "centrality": 13.019314667163027,
+    "rank": 490,
+    "closeness": 0.3268156424581006,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421298,
+    "name": "AYAHUASEC-AS",
+    "peers": 2,
+    "centrality": 13.019314667163027,
+    "rank": 491,
+    "closeness": 0.3268156424581006,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420455,
+    "name": "NEKOLINK",
+    "peers": 1,
+    "centrality": 13.01532002015249,
+    "rank": 492,
+    "closeness": 0.32663316582914576,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421916,
+    "name": "caxap Network",
+    "peers": 1,
+    "centrality": 13.01532002015249,
+    "rank": 493,
+    "closeness": 0.32663316582914576,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420888,
+    "name": "KUMA-AS",
+    "peers": 1,
+    "centrality": 13.01532002015249,
+    "rank": 494,
+    "closeness": 0.32663316582914576,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242427877,
+    "name": "AS-PHAUX-DN42",
+    "peers": 1,
+    "centrality": 13.01532002015249,
+    "rank": 495,
+    "closeness": 0.32663316582914576,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4201270018,
+    "name": "caxap Network",
+    "peers": 1,
+    "centrality": 13.01532002015249,
+    "rank": 496,
+    "closeness": 0.32663316582914576,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422943,
+    "name": "AS-AMIACLOWN-DN42",
+    "peers": 1,
+    "centrality": 13.01532002015249,
+    "rank": 497,
+    "closeness": 0.32663316582914576,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423850,
+    "name": "GEEKNET",
+    "peers": 1,
+    "centrality": 13.01532002015249,
+    "rank": 498,
+    "closeness": 0.32663316582914576,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421937,
+    "name": "caxap Network",
+    "peers": 1,
+    "centrality": 13.01532002015249,
+    "rank": 499,
+    "closeness": 0.32663316582914576,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4201270010,
+    "name": "Lan Tian",
+    "peers": 1,
+    "centrality": 12.99541351082938,
+    "rank": 500,
+    "closeness": 0.3257238307349666,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423480,
+    "name": "AS-AUTKIN-DN42",
+    "peers": 1,
+    "centrality": 12.99541351082938,
+    "rank": 501,
+    "closeness": 0.3257238307349666,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422380,
+    "name": "AS-MERLYN-DN42",
+    "peers": 1,
+    "centrality": 12.99541351082938,
+    "rank": 502,
+    "closeness": 0.3257238307349666,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423916,
+    "name": "BYRON-AS",
+    "peers": 1,
+    "centrality": 12.99541351082938,
+    "rank": 503,
+    "closeness": 0.3257238307349666,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420337,
+    "name": "STEVIE-AS",
+    "peers": 1,
+    "centrality": 12.99541351082938,
+    "rank": 504,
+    "closeness": 0.3257238307349666,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420365,
+    "name": "ALEKSANA-AS",
+    "peers": 1,
+    "centrality": 12.991445502126243,
+    "rank": 505,
+    "closeness": 0.32554257095158595,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 213262,
+    "name": "MOE-AS",
+    "peers": 1,
+    "centrality": 12.991445502126243,
+    "rank": 506,
+    "closeness": 0.32554257095158595,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422948,
+    "name": "AS-CENT-DN42",
+    "peers": 1,
+    "centrality": 12.967729882722466,
+    "rank": 507,
+    "closeness": 0.324459234608985,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423303,
+    "name": "MAKNET",
+    "peers": 1,
+    "centrality": 12.967729882722466,
+    "rank": 508,
+    "closeness": 0.324459234608985,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420037,
+    "name": "UTLEYCC KS AS",
+    "peers": 1,
+    "centrality": 12.967729882722466,
+    "rank": 509,
+    "closeness": 0.324459234608985,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421867,
+    "name": "AS-BENGL-DN42",
+    "peers": 1,
+    "centrality": 12.967729882722466,
+    "rank": 510,
+    "closeness": 0.324459234608985,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422556,
+    "name": "AS-NIELS-DN42",
+    "peers": 1,
+    "centrality": 12.967729882722466,
+    "rank": 511,
+    "closeness": 0.324459234608985,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423138,
+    "name": "kaizo",
+    "peers": 1,
+    "centrality": 12.967729882722466,
+    "rank": 512,
+    "closeness": 0.324459234608985,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422572,
+    "name": "RDAMJI27-AS",
+    "peers": 1,
+    "centrality": 12.967729882722466,
+    "rank": 513,
+    "closeness": 0.324459234608985,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420839,
+    "name": "No such as 4242420839",
+    "peers": 1,
+    "centrality": 12.967729882722466,
+    "rank": 514,
+    "closeness": 0.324459234608985,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422106,
+    "name": "AS-ADV6-DN42",
+    "peers": 1,
+    "centrality": 12.909125691209011,
+    "rank": 515,
+    "closeness": 0.3217821782178218,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422093,
+    "name": "THATGUY Network",
+    "peers": 1,
+    "centrality": 12.843865852005418,
+    "rank": 516,
+    "closeness": 0.3188010899182561,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421792,
+    "name": "AS-P3BK4C-LAB-DN42",
+    "peers": 1,
+    "centrality": 12.843865852005418,
+    "rank": 517,
+    "closeness": 0.3188010899182561,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423214,
+    "name": "TSYS-AS",
+    "peers": 1,
+    "centrality": 12.817344273359925,
+    "rank": 518,
+    "closeness": 0.31758957654723124,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423556,
+    "name": "LOADERROR-AS",
+    "peers": 1,
+    "centrality": 12.817344273359925,
+    "rank": 519,
+    "closeness": 0.31758957654723124,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421833,
+    "name": "ACME-AS",
+    "peers": 1,
+    "centrality": 12.817344273359925,
+    "rank": 520,
+    "closeness": 0.31758957654723124,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423570,
+    "name": "AS-BADBIT-DN42",
+    "peers": 1,
+    "centrality": 12.817344273359925,
+    "rank": 521,
+    "closeness": 0.31758957654723124,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422740,
+    "name": "AS-EMILIA-DN42",
+    "peers": 1,
+    "centrality": 12.750062572694748,
+    "rank": 522,
+    "closeness": 0.31451612903225806,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422593,
+    "name": "AS-APRL",
+    "peers": 1,
+    "centrality": 12.750062572694748,
+    "rank": 523,
+    "closeness": 0.31451612903225806,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420919,
+    "name": "PIGEON-AS",
+    "peers": 1,
+    "centrality": 12.738975357394583,
+    "rank": 524,
+    "closeness": 0.3140096618357488,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421121,
+    "name": "NEO-NETWORK-AS-2",
+    "peers": 1,
+    "centrality": 12.727923792304384,
+    "rank": 525,
+    "closeness": 0.3135048231511254,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420208,
+    "name": "HASHQ-AS",
+    "peers": 1,
+    "centrality": 12.720575803095592,
+    "rank": 526,
+    "closeness": 0.31316916488222696,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422622,
+    "name": "PKA-AS",
+    "peers": 1,
+    "centrality": 12.705926927172934,
+    "rank": 527,
+    "closeness": 0.3125,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421060,
+    "name": "MOEFIRE-AS",
+    "peers": 1,
+    "centrality": 12.705926927172934,
+    "rank": 528,
+    "closeness": 0.3125,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4201270016,
+    "name": "Moecast Network",
+    "peers": 1,
+    "centrality": 12.698625939920126,
+    "rank": 529,
+    "closeness": 0.3121664887940235,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422010,
+    "name": "ONVOX-AS",
+    "peers": 1,
+    "centrality": 12.687703631872237,
+    "rank": 530,
+    "closeness": 0.31166755460841766,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421956,
+    "name": "AS-SUMERU",
+    "peers": 1,
+    "centrality": 12.665963424456686,
+    "rank": 531,
+    "closeness": 0.3106744556558683,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423400,
+    "name": "AS-TRIDENT-DN42",
+    "peers": 1,
+    "centrality": 12.665963424456686,
+    "rank": 532,
+    "closeness": 0.3106744556558683,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422370,
+    "name": "MIXX-AS",
+    "peers": 1,
+    "centrality": 12.665963424456686,
+    "rank": 533,
+    "closeness": 0.3106744556558683,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422318,
+    "name": "LABOLYON-NETWORK",
+    "peers": 2,
+    "centrality": 12.658747444028926,
+    "rank": 534,
+    "closeness": 0.3103448275862069,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420734,
+    "name": "AS-TUTEL-DN42",
+    "peers": 1,
+    "centrality": 12.637191085786501,
+    "rank": 535,
+    "closeness": 0.3093601269169751,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 215887,
+    "name": "AS-BARAGOON-DN42",
+    "peers": 1,
+    "centrality": 12.608661168084575,
+    "rank": 536,
+    "closeness": 0.3080568720379147,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421217,
+    "name": "BAIYUANNEKO-AS",
+    "peers": 2,
+    "centrality": 12.538377069108098,
+    "rank": 537,
+    "closeness": 0.30484627410109433,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420817,
+    "name": "Ciel-Net",
+    "peers": 1,
+    "centrality": 12.527960614584972,
+    "rank": 538,
+    "closeness": 0.30437044745057235,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422517,
+    "name": "AS-LEYLEE-DN42",
+    "peers": 1,
+    "centrality": 12.527960614584972,
+    "rank": 539,
+    "closeness": 0.30437044745057235,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420201,
+    "name": "DERF-AS",
+    "peers": 1,
+    "centrality": 12.459340030205018,
+    "rank": 540,
+    "closeness": 0.30123583934088566,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422595,
+    "name": "IKS-AS",
+    "peers": 1,
+    "centrality": 12.425557047833536,
+    "rank": 541,
+    "closeness": 0.29969262295081966,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421975,
+    "name": "FL",
+    "peers": 1,
+    "centrality": 12.375526632150706,
+    "rank": 542,
+    "closeness": 0.2974072191154042,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420134,
+    "name": "NOP-TEST",
+    "peers": 1,
+    "centrality": 12.375526632150706,
+    "rank": 543,
+    "closeness": 0.2974072191154042,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420736,
+    "name": "AS-TK-DN42",
+    "peers": 1,
+    "centrality": 12.37221838786165,
+    "rank": 544,
+    "closeness": 0.2972560975609756,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420937,
+    "name": "AS-BROOMKNIGHT-DN42",
+    "peers": 1,
+    "centrality": 12.368913503901991,
+    "rank": 545,
+    "closeness": 0.2971051295073641,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423140,
+    "name": "Stichting Hackalot",
+    "peers": 1,
+    "centrality": 12.35572746916786,
+    "rank": 546,
+    "closeness": 0.2965027876330461,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 141776,
+    "name": "BAOSHUO-AS-AP",
+    "peers": 1,
+    "centrality": 12.3132396883157,
+    "rank": 547,
+    "closeness": 0.2945619335347432,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4201270017,
+    "name": "BAOSHUO-AS-NEO",
+    "peers": 1,
+    "centrality": 12.3132396883157,
+    "rank": 548,
+    "closeness": 0.2945619335347432,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423765,
+    "name": "LAGERTONNE-AS",
+    "peers": 1,
+    "centrality": 12.3132396883157,
+    "rank": 549,
+    "closeness": 0.2945619335347432,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423137,
+    "name": "neverland",
+    "peers": 1,
+    "centrality": 12.300278205266405,
+    "rank": 550,
+    "closeness": 0.29396984924623115,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421312,
+    "name": "NIYAWE",
+    "peers": 1,
+    "centrality": 12.136399865713669,
+    "rank": 551,
+    "closeness": 0.2864838393731636,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423161,
+    "name": "AS-EMMA-DN42",
+    "peers": 1,
+    "centrality": 12.105837009990365,
+    "rank": 552,
+    "closeness": 0.2850877192982456,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420927,
+    "name": "LIKI4-AS",
+    "peers": 1,
+    "centrality": 12.0906670169454,
+    "rank": 553,
+    "closeness": 0.28439474963539135,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423019,
+    "name": "REALBRANDON-AS",
+    "peers": 1,
+    "centrality": 12.087641863813401,
+    "rank": 554,
+    "closeness": 0.28425655976676384,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422287,
+    "name": "PURRDETA-AS",
+    "peers": 1,
+    "centrality": 12.051568008784288,
+    "rank": 555,
+    "closeness": 0.2826086956521739,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423621,
+    "name": "AS-PH42-DN42",
+    "peers": 1,
+    "centrality": 12.010006911891345,
+    "rank": 556,
+    "closeness": 0.2807101727447217,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420656,
+    "name": "AS-AIRGAPPED",
+    "peers": 1,
+    "centrality": 11.838035688740234,
+    "rank": 557,
+    "closeness": 0.2728544776119403,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421233,
+    "name": "ATR-OPEN",
+    "peers": 1,
+    "centrality": 11.838035688740234,
+    "rank": 558,
+    "closeness": 0.2728544776119403,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 64675,
+    "name": "STEPHANJ-AS",
+    "peers": 1,
+    "centrality": 11.709903653404732,
+    "rank": 559,
+    "closeness": 0.26700136923779094,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423852,
+    "name": "TYPHON-DN42",
+    "peers": 1,
+    "centrality": 11.696595361551104,
+    "rank": 560,
+    "closeness": 0.26639344262295084,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423773,
+    "name": "SKJOLDR-AS",
+    "peers": 1,
+    "centrality": 11.696595361551104,
+    "rank": 561,
+    "closeness": 0.26639344262295084,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422315,
+    "name": "AS-BURN-DN42",
+    "peers": 1,
+    "centrality": 11.549055845818842,
+    "rank": 562,
+    "closeness": 0.2596537949400799,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422619,
+    "name": "frainz' AS",
+    "peers": 2,
+    "centrality": 11.399214276049541,
+    "rank": 563,
+    "closeness": 0.25280898876404495,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420197,
+    "name": "N0EMIS-AS",
+    "peers": 1,
+    "centrality": 11.396823644341223,
+    "rank": 564,
+    "closeness": 0.2526997840172786,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 64742,
+    "name": "CHIANTOS-AS",
+    "peers": 2,
+    "centrality": 11.384901399140684,
+    "rank": 565,
+    "closeness": 0.2521551724137931,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423514,
+    "name": "LFNET-HOME",
+    "peers": 1,
+    "centrality": 11.382523114122224,
+    "rank": 566,
+    "closeness": 0.2520465316673847,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420511,
+    "name": "MORTZEL-AS",
+    "peers": 1,
+    "centrality": 11.356496598825853,
+    "rank": 567,
+    "closeness": 0.25085763293310465,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421543,
+    "name": "MEISLAOZHANG-AS",
+    "peers": 1,
+    "centrality": 11.344747358929546,
+    "rank": 568,
+    "closeness": 0.2503209242618742,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 64915,
+    "name": "ASKAREL-AS",
+    "peers": 1,
+    "centrality": 11.342403541355706,
+    "rank": 569,
+    "closeness": 0.25021385799828916,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421457,
+    "name": "AS for RAITO network",
+    "peers": 1,
+    "centrality": 11.342403541355706,
+    "rank": 570,
+    "closeness": 0.25021385799828916,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422545,
+    "name": "OXYGEN233-AS",
+    "peers": 1,
+    "centrality": 11.266166698204245,
+    "rank": 571,
+    "closeness": 0.2467313369886124,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422541,
+    "name": "OXYGEN233-AS",
+    "peers": 1,
+    "centrality": 11.266166698204245,
+    "rank": 572,
+    "closeness": 0.2467313369886124,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242422423,
+    "name": "NO42-AS",
+    "peers": 1,
+    "centrality": 11.21874756719874,
+    "rank": 573,
+    "closeness": 0.24456521739130435,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423622,
+    "name": "Fox_and_Bear_Network",
+    "peers": 1,
+    "centrality": 11.06230402413652,
+    "rank": 574,
+    "closeness": 0.23741883116883117,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242421127,
+    "name": "ZENTRALWERK-AS",
+    "peers": 1,
+    "centrality": 10.956909388035093,
+    "rank": 575,
+    "closeness": 0.23260437375745527,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 65022,
+    "name": "ICVPN-TRIER",
+    "peers": 2,
+    "centrality": 10.946806198517745,
+    "rank": 576,
+    "closeness": 0.23214285714285715,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 65037,
+    "name": "ICVPN-MWU",
+    "peers": 2,
+    "centrality": 10.946806198517745,
+    "rank": 577,
+    "closeness": 0.23214285714285715,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 65533,
+    "name": "ICVPN-KREISGT",
+    "peers": 1,
+    "centrality": 10.944790369748517,
+    "rank": 578,
+    "closeness": 0.23205077350257836,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 64857,
+    "name": "ICVPN-VOGTLAND",
+    "peers": 1,
+    "centrality": 10.944790369748517,
+    "rank": 579,
+    "closeness": 0.23205077350257836,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 65099,
+    "name": "ICVPN-ERFURT",
+    "peers": 1,
+    "centrality": 10.944790369748517,
+    "rank": 580,
+    "closeness": 0.23205077350257836,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 65042,
+    "name": "ICVPN-WEIMAR",
+    "peers": 1,
+    "centrality": 10.944790369748517,
+    "rank": 581,
+    "closeness": 0.23205077350257836,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 201173,
+    "name": "ICVPN-LUEBECK",
+    "peers": 1,
+    "centrality": 10.944790369748517,
+    "rank": 582,
+    "closeness": 0.23205077350257836,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423710,
+    "name": "LINGXUN-AS",
+    "peers": 1,
+    "centrality": 10.693860734266673,
+    "rank": 583,
+    "closeness": 0.22058823529411764,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242423348,
+    "name": "CLOUDFILES",
+    "peers": 1,
+    "centrality": 10.576601247527766,
+    "rank": 584,
+    "closeness": 0.2152317880794702,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 4242420162,
+    "name": "cuechan-net",
+    "peers": 1,
+    "centrality": 10.562773809886574,
+    "rank": 585,
+    "closeness": 0.21460014673514308,
+    "betweenness": 0.0
+  },
+  {
+    "asn": 64616,
+    "name": "SIN-AS",
+    "peers": 1,
+    "centrality": 10.0,
+    "rank": 586,
+    "closeness": 0.18889247659024863,
+    "betweenness": 0.0
+  }
+]
